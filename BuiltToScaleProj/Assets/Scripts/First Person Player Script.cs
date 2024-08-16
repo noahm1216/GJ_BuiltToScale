@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Cinemachine;
+
 
 public class FirstPersonPlayer : MonoBehaviour
 {
@@ -13,6 +15,11 @@ public class FirstPersonPlayer : MonoBehaviour
     private Vector3 velocity;         // Player's velocity for gravity and jumping
     private Transform cameraTransform; // Reference to the player's camera
     private float xRotation = 0f;     // Current rotation around the X axis for the camera
+    private float yRotation = 0f;     // Current rotation around the y axis for the camera
+
+    public CinemachineVirtualCamera normalSizeVCAM; // Assign in the inspector
+    public CinemachineVirtualCamera smallSizeVCAM;  // Assign in the inspector
+    public CinemachineVirtualCamera largeVCAM;      // Assign in the inspector
 
     void Start()
     {
@@ -33,6 +40,9 @@ public class FirstPersonPlayer : MonoBehaviour
 
         // Handle player movement
         HandleMovement();
+
+        // Set Player Size
+        SetCharacterSize();
     }
 
     void HandleMouseLook()
@@ -46,7 +56,9 @@ public class FirstPersonPlayer : MonoBehaviour
         xRotation = Mathf.Clamp(xRotation, -90f, 90f); // Clamp vertical rotation to avoid flipping
 
         // Apply the rotation to the camera
-        cameraTransform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
+        largeVCAM.transform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
+        smallSizeVCAM.transform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
+        normalSizeVCAM.transform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
 
         // Rotate the player horizontally based on the mouse X input
         transform.Rotate(Vector3.up * mouseX);
@@ -81,6 +93,48 @@ public class FirstPersonPlayer : MonoBehaviour
 
         // Apply the gravity effect to the player's movement
         controller.Move(velocity * Time.deltaTime);
+    }
+
+
+    void SetCharacterSize()
+    {
+        if (Input.GetKeyDown(KeyCode.Alpha1))
+        {
+            SetSmallSizeCamera();
+        }
+        else if (Input.GetKeyDown(KeyCode.Alpha2))
+        {
+            SetNormalSizeCamera();
+        }
+        else if (Input.GetKeyDown(KeyCode.Alpha3))
+        {
+            SetLargeSizeCamera();
+        }
+    }
+    
+
+    // Set priority to Normal Size VCAM
+    public void SetNormalSizeCamera()
+    {
+        normalSizeVCAM.Priority = 10;
+        smallSizeVCAM.Priority = 0;
+        largeVCAM.Priority = 0;
+    }
+
+    // Set priority to Small Size VCAM
+    public void SetSmallSizeCamera()
+    {
+        normalSizeVCAM.Priority = 0;
+        smallSizeVCAM.Priority = 10;
+        largeVCAM.Priority = 0;
+    }
+
+    // Set priority to Large Size VCAM
+    public void SetLargeSizeCamera()
+    {
+        normalSizeVCAM.Priority = 0;
+        smallSizeVCAM.Priority = 0;
+        largeVCAM.Priority = 10;
     }
 }
 

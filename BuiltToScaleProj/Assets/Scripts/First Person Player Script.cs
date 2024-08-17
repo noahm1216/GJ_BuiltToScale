@@ -43,6 +43,8 @@ public class FirstPersonPlayer : MonoBehaviour
 
         // Set Player Size
         SetCharacterSize();
+
+        Debug.Log(controller.isGrounded);
     }
 
     void HandleMouseLook()
@@ -87,6 +89,7 @@ public class FirstPersonPlayer : MonoBehaviour
         {
             velocity.y = Mathf.Sqrt(jumpForce * -2f * gravity);
         }
+
 
         // Apply gravity
         velocity.y += gravity * Time.deltaTime;

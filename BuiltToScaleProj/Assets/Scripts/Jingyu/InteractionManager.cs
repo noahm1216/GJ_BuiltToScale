@@ -10,6 +10,8 @@ public class InteractionManager : MonoBehaviour
     public bool IsDragging;
     public UI_ItemInInventory ItemToDrag;
 
+    public Transform UIButtonHolder;
+    public GameObject UIButtonPrefab;
 
     private void Awake()
     {

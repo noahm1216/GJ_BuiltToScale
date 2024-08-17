@@ -1,5 +1,7 @@
+using Cinemachine;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class DimensionManager : MonoBehaviour
@@ -7,6 +9,9 @@ public class DimensionManager : MonoBehaviour
     public static DimensionManager instance;
 
     public Dimension CurrentDimension;
+
+    public CinemachineBrain CameraBrain;
+
 
     [SerializeField]
     float ZoomInSequenceDuration = 1;
@@ -48,6 +53,7 @@ public class DimensionManager : MonoBehaviour
         if (CanTransition)
         {
             StartCoroutine(ZoomIn(fromDimension, toDimension, ZoomInSequenceDuration));
+            //StartCoroutine(ZoomInVCAM(fromDimension, toDimension, ZoomInSequenceDuration));
         }
     }
 
@@ -90,6 +96,33 @@ public class DimensionManager : MonoBehaviour
         fromDimension.MainCamera.transform.rotation = OriginalRotation;
 
         CurrentDimension = toDimension;
+
+        CanTransition = true;
+    }
+
+    IEnumerator ZoomInVCAM(Dimension fromDimension, Dimension toDimension, float Duration)
+    {
+        CanTransition = false;
+        Debug.Log("Zoom In");
+        
+        CameraBrain.m_DefaultBlend.m_Time = Duration;
+        
+        //Sets Priority to transition cam
+        toDimension.TransitionVCAM.Priority = 10;
+        fromDimension.MainVCAM.Priority = 0;
+        toDimension.MainVCAM.Priority = 0;
+
+        yield return new WaitForSeconds(Duration + .5f);
+        CameraBrain.m_DefaultBlend.m_Time = 0f;
+        
+        toDimension.MainVCAM.Priority = 10;
+        toDimension.TransitionVCAM.Priority = 0;
+
+
+
+        CurrentDimension = toDimension;
+
+       
 
         CanTransition = true;
     }

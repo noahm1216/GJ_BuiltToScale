@@ -17,8 +17,13 @@ public class ShrinkProjectile : MonoBehaviour
     {
         Debug.Log("Collided");
         // Shrink the object the projectile collides with
-        collision.transform.localScale *= shrinkFactor;
-
+        //collision.transform.localScale *= shrinkFactor;
+        Animator animator = collision.gameObject.GetComponent<Animator>();
+        if (animator != null)
+        {
+            // Trigger the animation by setting the trigger
+            animator.SetBool("isGrowing", false);
+        }
         // Destroy the projectile after the collision
         Destroy(gameObject);
     }

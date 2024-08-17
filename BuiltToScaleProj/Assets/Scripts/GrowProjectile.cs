@@ -16,7 +16,15 @@ public class GrowProjectile : MonoBehaviour
     void OnTriggerEnter(Collider collision)
     {
         // Grow the object the projectile collides with
-        collision.transform.localScale *= growFactor;
+        //collision.transform.localScale *= growFactor;
+        Animator animator = collision.gameObject.GetComponent<Animator>();
+        if (animator != null)
+        {
+            // Trigger the animation by setting the trigger
+            //animator.SetTrigger("isGrowing");
+            animator.SetBool("isGrowing", true);
+
+        }
 
         // Destroy the projectile after the collision
         Destroy(gameObject);

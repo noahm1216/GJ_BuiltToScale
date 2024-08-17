@@ -5,6 +5,7 @@ using UnityEngine.EventSystems;
 
 public class UI_ItemInInventory : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, IEndDragHandler, IDragHandler
 {
+    public int ID;
     private RectTransform rectTransform;
     private Canvas canvas;
 
@@ -21,7 +22,7 @@ public class UI_ItemInInventory : MonoBehaviour, IPointerDownHandler, IBeginDrag
 
     public void OnBeginDrag(PointerEventData eventData)
     {
-
+        InteractionManager.instance.StartDragging(this);
     }
 
     public void OnDrag(PointerEventData eventData)
@@ -31,6 +32,7 @@ public class UI_ItemInInventory : MonoBehaviour, IPointerDownHandler, IBeginDrag
 
     public void OnEndDrag(PointerEventData eventData)
     {
+        bool b = InteractionManager.instance.RequestInteraction();
         rectTransform.anchoredPosition = new Vector3(0, 0, 0);
     }
 }

@@ -107,7 +107,7 @@ public class DimensionManager : MonoBehaviour
         
         CameraBrain.m_DefaultBlend.m_Time = Duration;
         
-        //Sets Priority to transition cam
+        //Sets Priority to transitionVCAM cam
         toDimension.TransitionVCAM.Priority = 10;
         fromDimension.MainVCAM.Priority = 0;
         toDimension.MainVCAM.Priority = 0;
@@ -123,6 +123,34 @@ public class DimensionManager : MonoBehaviour
         CurrentDimension = toDimension;
 
        
+
+        CanTransition = true;
+    }
+
+    IEnumerator ZoomOutVCAM(Dimension fromDimension, Dimension toDimension, float Duration)
+    {
+        CanTransition = false;
+        Debug.Log("Zoom In");
+
+        //Sets time to 0 so instantly switches to new cam
+        CameraBrain.m_DefaultBlend.m_Time = 0;
+
+        //Sets Priority to transition cam
+        fromDimension.TransitionVCAM.Priority = 10;
+        fromDimension.MainVCAM.Priority = 0;
+        toDimension.MainVCAM.Priority = 0;
+
+        yield return new WaitForSeconds(.1f);
+
+        //Sets Duration for zoom out and sets priority to TODIM VCAM
+        CameraBrain.m_DefaultBlend.m_Time = Duration;
+        toDimension.MainVCAM.Priority = 10;
+        fromDimension.TransitionVCAM.Priority = 0;
+        fromDimension.MainVCAM.Priority = 0;
+
+        yield return new WaitForSeconds(Duration + .5f);
+        
+        CurrentDimension = toDimension;
 
         CanTransition = true;
     }

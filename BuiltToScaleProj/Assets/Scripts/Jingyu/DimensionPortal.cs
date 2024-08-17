@@ -8,6 +8,7 @@ public class DimensionPortal : MonoBehaviour
 
     public void ZoomInToDimension()
     {
+        Debug.Log("Clicked On UI");
         DimensionManager.instance.RequestZoomIn(DimensionManager.instance.CurrentDimension, PointsToDimension);
     }
 

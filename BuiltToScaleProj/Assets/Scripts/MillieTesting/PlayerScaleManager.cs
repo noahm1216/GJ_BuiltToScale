@@ -61,7 +61,7 @@ public class PlayerScaleManager : MonoBehaviour
                 playerController.excludeLayers = smallLayer;
                 playerColor.material.color = Color.red;
                 characterControllerScript.jumpHeight = .5f;
-                characterControllerScript.moveSpeed = 8f;
+                characterControllerScript.moveSpeed = 6f;
                 break;
             case PlayerScale.Medium:
                 player.transform.localScale = Vector3.Lerp(player.transform.localScale,new Vector3(1f, 1f, 1f), Time.deltaTime/.2f);
@@ -71,7 +71,7 @@ public class PlayerScaleManager : MonoBehaviour
                 playerController.excludeLayers = mediumLayer;
                 playerColor.material.color = Color.green;
                 characterControllerScript.jumpHeight = 2f;
-                characterControllerScript.moveSpeed = 5f;
+                characterControllerScript.moveSpeed = 4f;
                 break;
             case PlayerScale.Large:
                 player.transform.localScale = Vector3.Lerp(player.transform.localScale,new Vector3(2f, 2f, 2f), Time.deltaTime/.2f);

@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class TPC : MonoBehaviour
 {
@@ -22,6 +23,11 @@ public class TPC : MonoBehaviour
     {
         Move();
         RotateCharacter();
+
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            SceneManager.LoadScene("MillieTesting");
+        }
     }
 
     void Move()

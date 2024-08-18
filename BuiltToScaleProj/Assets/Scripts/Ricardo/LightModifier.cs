@@ -10,6 +10,11 @@ public class LightModifier : MonoBehaviour
 
     private Color currentColor;
 
+    public GameObject Moon;
+    public Vector3 MoonDownPosition;
+    public Vector3 MoonUpPosition;
+
+
 
 
     // Start is called before the first frame update
@@ -111,6 +116,10 @@ public class LightModifier : MonoBehaviour
         {
             while (elapsedTime < duration)
             {
+                Moon.transform.position = Vector3.Lerp(MoonDownPosition,MoonUpPosition, elapsedTime / duration);
+
+
+
                 // Calculate the current color based on the elapsed time
                 Color _currentColor = Color.Lerp(currentColor, nightColor, elapsedTime / duration);
 

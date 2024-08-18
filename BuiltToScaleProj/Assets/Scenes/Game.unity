@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -933,7 +933,7 @@ Camera:
   m_Enabled: 0
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0.47893912, g: 0.49373323, b: 0.5169811, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -1010,8 +1010,8 @@ Camera:
   m_GameObject: {fileID: 567870790}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0.3207547, g: 0.24873619, b: 0.24873619, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -1597,7 +1597,7 @@ Camera:
   m_Enabled: 0
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0, g: 0.38888884, b: 1, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -2195,7 +2195,7 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
@@ -2601,6 +2601,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1375539006}
   - component: {fileID: 1375539007}
+  - component: {fileID: 1375539008}
   m_Layer: 0
   m_Name: InteractionManager
   m_TagString: Untagged
@@ -2637,11 +2638,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsDragging: 0
   ItemToDrag: {fileID: 0}
-  UIButtonHolder: {fileID: 59430067}
+  UIButtonHolder: {fileID: 1330952845}
   UIButtonPrefab: {fileID: 8755937221050132942, guid: bd484f64b1355c64d8e78d468b3317dd, type: 3}
   Layer:
     serializedVersion: 2
     m_Bits: 512
+--- !u!114 &1375539008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1375539005}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28b3f55b89427fa40a3af44105f116ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dayColor: {r: 0.7377358, g: 1, b: 0.9910969, a: 0}
+  nightColor: {r: 0.03749572, g: 0, b: 0.2679245, a: 0}
 --- !u!1 &1381056715
 GameObject:
   m_ObjectHideFlags: 0

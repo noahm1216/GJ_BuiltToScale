@@ -5,13 +5,17 @@ using UnityEngine;
 public class MoveLeftRight : MonoBehaviour
 {
     public float moveSpeed = 5;
+    Vector3 pos;
+
+    private void Start()
+    {
+        pos = transform.position;
+    }
 
     private void FixedUpdate()
     {
-        Vector2 pos = transform.position;
-        pos.x += moveSpeed * Time.fixedDeltaTime;
-        if (pos.x > 20)
-            pos.x = -15;
-        transform.position = pos;
+        transform.position += new Vector3(moveSpeed, 0, 0) * Time.fixedDeltaTime;
+        if (pos.x < (transform.position.x + 15))
+            transform.position = pos;
     }
 }

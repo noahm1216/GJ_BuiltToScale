@@ -15,7 +15,7 @@ public class MoveLeftRight : MonoBehaviour
     private void FixedUpdate()
     {
         transform.position += new Vector3(moveSpeed, 0, 0) * Time.fixedDeltaTime;
-        if (pos.x < (transform.position.x + 15))
+        if (transform.position.x > (pos.x + 15))
             transform.position = pos;
     }
 }

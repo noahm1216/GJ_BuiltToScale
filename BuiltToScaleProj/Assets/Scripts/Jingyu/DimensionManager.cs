@@ -89,6 +89,8 @@ public class DimensionManager : MonoBehaviour
             {
                 FindObjectOfType(typeof(VideoPlayer)).GetComponent<VideoPlayer>().SetDirectAudioVolume(0,Mathf.Lerp(0, 1, elapsedTime / Duration));
             }
+            toDimension.GetComponent<AudioSource>().volume = Mathf.Lerp(0, 1, elapsedTime / Duration);
+            fromDimension.GetComponent<AudioSource>().volume = Mathf.Lerp(1, 0, elapsedTime / Duration);
             fromDimension.MainCamera.transform.position = Vector3.Lerp(OriginalPosition, TargetPosition, elapsedTime / Duration);
             fromDimension.MainCamera.transform.rotation = Quaternion.Lerp(OriginalRotation, TargetRotation, elapsedTime / Duration);
             fromDimension.MainCamera.fieldOfView = Mathf.Lerp(OriginalFieldofView, TargetFieldofView, elapsedTime / Duration);
@@ -96,6 +98,8 @@ public class DimensionManager : MonoBehaviour
             elapsedTime += Time.deltaTime;
             yield return null; // Wait for the next frame
         }
+        toDimension.GetComponent<AudioSource>().volume = 1;
+        fromDimension.GetComponent<AudioSource>().volume = 0;
         fromDimension.MainCamera.enabled = false;
         toDimension.MainCamera.enabled = true;
         fromDimension.MainCamera.transform.position = OriginalPosition;
@@ -186,6 +190,8 @@ public class DimensionManager : MonoBehaviour
             {
                 FindObjectOfType(typeof(VideoPlayer)).GetComponent<VideoPlayer>().SetDirectAudioVolume(0, Mathf.Lerp(1, 0, elapsedTime / Duration));
             }
+            toDimension.GetComponent<AudioSource>().volume = Mathf.Lerp(0, 1, elapsedTime / Duration);
+            fromDimension.GetComponent<AudioSource>().volume = Mathf.Lerp(1, 0, elapsedTime / Duration);
             toDimension.MainCamera.transform.position = Vector3.Lerp(OriginalPosition, TargetPosition, elapsedTime / Duration);
             toDimension.MainCamera.transform.rotation = Quaternion.Lerp(OriginalRotation, TargetRotation, elapsedTime / Duration);
             toDimension.MainCamera.fieldOfView = Mathf.Lerp(OriginalFieldofView, TargetFieldofView, elapsedTime / Duration);
@@ -193,6 +199,8 @@ public class DimensionManager : MonoBehaviour
             elapsedTime += Time.deltaTime;
             yield return null; // Wait for the next frame
         }
+        toDimension.GetComponent<AudioSource>().volume = 1;
+        fromDimension.GetComponent<AudioSource>().volume = 0;
         FindObjectOfType(typeof(VideoPlayer)).GetComponent<VideoPlayer>().SetDirectAudioVolume(0, 0);
         CanTransition = true;
     }

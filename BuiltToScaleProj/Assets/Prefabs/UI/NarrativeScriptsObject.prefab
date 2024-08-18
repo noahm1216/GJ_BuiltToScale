@@ -48,16 +48,17 @@ MonoBehaviour:
   gameGoalInfo: []
   nextMonsterFeedbackId: 0
   monsterFeedbackInfo:
-  - name: MonsterWant1
-    textLine: The Monsters Seems To Dance In Joy
+  - name: Monster Click 1
+    textLine: "hmm\u2026 it seems like he is looking for someone to dance with. "
     playAfterPrevious: 0
-  - name: MonsterWant2
-    textLine: He Just Keeps Dancing
-    playAfterPrevious: 0
-  - name: MonsterWant3
-    textLine: I bet we could scare him off
+  - name: Follow UP Message
+    textLine: "Quick, let\u2019s help him find one! "
     playAfterPrevious: 1
-  - name: MonsterWant4
-    textLine: Clicking HIm Doesnt seem to work, maybe we can find an item to throw
-      at him
+  - name: Monster Click 2
+    textLine: Whats going on in that building over there?
     playAfterPrevious: 0
+  - name: Follow Up Message
+    textLine: Clue ( window sparkling/glowing)
+    playAfterPrevious: 1
+  nextToyFeedbackId: 0
+  toyFeedbackInfo: []

@@ -46,10 +46,7 @@ public class InteractionManager : MonoBehaviour
             int id = FindAllInteractableObjects()[i].ID;//Caches an interactable object ID
             InteractableObject obj = FindAllInteractableObjects()[i]; //Caches an interactable object
             interactableObjects.Add(id, obj);//Adds to dictionary 
-        }
-
-        
-        
+        }        
     }
 
     // Update is called once per frame

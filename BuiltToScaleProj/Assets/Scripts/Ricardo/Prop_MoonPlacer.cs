@@ -26,8 +26,6 @@ public class Prop_MoonPlacer : InteractableProp
 
                
         }
-
-        Debug.Log("FIRED");
         return false;
     }
 

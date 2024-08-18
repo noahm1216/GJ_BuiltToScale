@@ -9,6 +9,7 @@ public class LightModifier : MonoBehaviour
     public Color nightColor;
 
     private Color currentColor;
+    public bool isDayTime = true;
 
     public GameObject Moon;
     public Vector3 MoonDownPosition;
@@ -46,6 +47,7 @@ public class LightModifier : MonoBehaviour
             c.clearFlags = CameraClearFlags.SolidColor;
             c.backgroundColor = nightColor;
             currentColor = c.backgroundColor;
+            isDayTime = false;
         }
     }
 
@@ -57,6 +59,7 @@ public class LightModifier : MonoBehaviour
             c.clearFlags = CameraClearFlags.SolidColor;
             c.backgroundColor = dayColor;
             currentColor = c.backgroundColor;
+            isDayTime = true;
         }
     }
 
@@ -95,7 +98,7 @@ public class LightModifier : MonoBehaviour
             {
                 // Calculate the current color based on the elapsed time
                 Color _currentColor = Color.Lerp(currentColor, dayColor, elapsedTime / duration);
-
+                isDayTime = true;
                 // Set the background color for all cameras
                 foreach (Camera c in GetAllCams())
                 {
@@ -118,6 +121,7 @@ public class LightModifier : MonoBehaviour
             {
                 Moon.transform.position = Vector3.Lerp(MoonDownPosition,MoonUpPosition, elapsedTime / duration);
 
+                isDayTime = false;
 
 
                 // Calculate the current color based on the elapsed time

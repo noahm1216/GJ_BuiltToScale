@@ -61,4 +61,22 @@ MonoBehaviour:
     textLine: Clue ( window sparkling/glowing)
     playAfterPrevious: 1
   nextToyFeedbackId: 0
-  toyFeedbackInfo: []
+  toyFeedbackInfo:
+  - name: Toy Click 1
+    textLine: A bunny? I hope this monster isn't hungry!
+    playAfterPrevious: 0
+  - name: Follow Up Message
+    textLine: This bunny isn't looking to be on todays menu.
+    playAfterPrevious: 1
+  - name: Toy Click 2
+    textLine: I don't think they'd get along very well.
+    playAfterPrevious: 0
+  - name: Follow Up Message
+    textLine: Seriously. Have you seen the movies?
+    playAfterPrevious: 1
+  - name: Toy Click 3
+    textLine: Hmm. Monster and dragon. They'd be a perfect pair!
+    playAfterPrevious: 0
+  - name: Follow Up Message
+    textLine: These two are the ideal match!
+    playAfterPrevious: 1

@@ -1,0 +1,11 @@
+Model Information:
+* title:	AS_Bookshelf
+* source:	https://sketchfab.com/3d-models/as-bookshelf-244a639e6ece4777b1ca836e40ffe3be
+* author:	DUCK_ (https://sketchfab.com/DUCK_THE_KILLER)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "AS_Bookshelf" (https://sketchfab.com/3d-models/as-bookshelf-244a639e6ece4777b1ca836e40ffe3be) by DUCK_ (https://sketchfab.com/DUCK_THE_KILLER) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

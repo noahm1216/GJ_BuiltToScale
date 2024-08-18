@@ -14,13 +14,18 @@ public class logInMessages : MonoBehaviour
         if (Instance != null && Instance != this)
             Destroy(this);
         else
-            Instance = this;
+            Instance = this;       
     }
 
-    public void sendMessage(string _sentMessage)
+    private void Start()
+    {
+        message.text += "";
+    }
+
+    public void SendMessage(string _sentMessage)
     {
         if (message != null)
-            message.text += $"\n{_sentMessage}";
+            message.text += $"\n\n{_sentMessage}";
         else
             Debug.Log($"Missing Text Bod To Send Message: {_sentMessage}");
     }

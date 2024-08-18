@@ -44,8 +44,7 @@ public class InteractionManager : MonoBehaviour
     {
         //Need to clear previous items
 
-        ItemToDrag = Item;
-        
+        ItemToDrag = Item;        
         IsDragging = true;
     }
 
@@ -72,9 +71,19 @@ public class InteractionManager : MonoBehaviour
 
             if (closestHit != null)
             {
-                return (closestHit.GetComponent<InteractableProp>().RequestInteraction(ItemToDrag.ID));
+                bool something = (closestHit.GetComponent<InteractableProp>().RequestInteraction(ItemToDrag.ID));
+               
+                if(something && logInMessages.Instance)
+                    logInMessages.Instance.SendMessage($"Item:{ItemToDrag.ID} INTERACTED WITH - {closestHit.transform.name}");
+                else if(!something && logInMessages.Instance)
+                    logInMessages.Instance.SendMessage($"Item:{ItemToDrag.ID} - {closestHit.transform.name}");
+
+                return something;
             }
         }
+        // no playable object
+        if (logInMessages.Instance)
+            logInMessages.Instance.SendMessage($"Item:{ItemToDrag.ID} - DOESNT INTERACT WITH THAT");
         return false;
     }
 }

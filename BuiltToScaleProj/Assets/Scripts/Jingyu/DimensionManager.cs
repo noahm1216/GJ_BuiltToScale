@@ -2,7 +2,9 @@ using Cinemachine;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.Video;
 
 public class DimensionManager : MonoBehaviour
 {
@@ -10,7 +12,7 @@ public class DimensionManager : MonoBehaviour
 
     public Dimension CurrentDimension;
 
-    public CinemachineBrain CameraBrain;
+    //public CinemachineBrain CameraBrain;
 
 
     [SerializeField]
@@ -78,10 +80,15 @@ public class DimensionManager : MonoBehaviour
         float OriginalFieldofView = fromDimension.MainCamera.fieldOfView;
         float TargetFieldofView = toDimension.TransitionCamera.fieldOfView;
 
-
         float elapsedTime = 0f;
+
         while (elapsedTime < Duration)
         {
+
+            if (toDimension.gameObject.name == "World 6")
+            {
+                FindObjectOfType(typeof(VideoPlayer)).GetComponent<VideoPlayer>().SetDirectAudioVolume(0,Mathf.Lerp(0, 1, elapsedTime / Duration));
+            }
             fromDimension.MainCamera.transform.position = Vector3.Lerp(OriginalPosition, TargetPosition, elapsedTime / Duration);
             fromDimension.MainCamera.transform.rotation = Quaternion.Lerp(OriginalRotation, TargetRotation, elapsedTime / Duration);
             fromDimension.MainCamera.fieldOfView = Mathf.Lerp(OriginalFieldofView, TargetFieldofView, elapsedTime / Duration);
@@ -99,7 +106,7 @@ public class DimensionManager : MonoBehaviour
 
         CanTransition = true;
     }
-
+    /*
     IEnumerator ZoomInVCAM(Dimension fromDimension, Dimension toDimension, float Duration)
     {
         CanTransition = false;
@@ -153,7 +160,7 @@ public class DimensionManager : MonoBehaviour
         CurrentDimension = toDimension;
 
         CanTransition = true;
-    }
+    }*/
 
     IEnumerator ZoomOut(Dimension fromDimension, Dimension toDimension, float Duration)
     {
@@ -175,6 +182,10 @@ public class DimensionManager : MonoBehaviour
         float elapsedTime = 0f;
         while (elapsedTime < Duration)
         {
+            if (fromDimension.gameObject.name == "World 6")
+            {
+                FindObjectOfType(typeof(VideoPlayer)).GetComponent<VideoPlayer>().SetDirectAudioVolume(0, Mathf.Lerp(1, 0, elapsedTime / Duration));
+            }
             toDimension.MainCamera.transform.position = Vector3.Lerp(OriginalPosition, TargetPosition, elapsedTime / Duration);
             toDimension.MainCamera.transform.rotation = Quaternion.Lerp(OriginalRotation, TargetRotation, elapsedTime / Duration);
             toDimension.MainCamera.fieldOfView = Mathf.Lerp(OriginalFieldofView, TargetFieldofView, elapsedTime / Duration);
@@ -182,6 +193,7 @@ public class DimensionManager : MonoBehaviour
             elapsedTime += Time.deltaTime;
             yield return null; // Wait for the next frame
         }
+        FindObjectOfType(typeof(VideoPlayer)).GetComponent<VideoPlayer>().SetDirectAudioVolume(0, 0);
         CanTransition = true;
     }
 }

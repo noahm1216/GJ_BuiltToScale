@@ -105,6 +105,8 @@ public class DimensionManager : MonoBehaviour
         fromDimension.MainCamera.transform.position = OriginalPosition;
         fromDimension.MainCamera.fieldOfView = OriginalFieldofView;
         fromDimension.MainCamera.transform.rotation = OriginalRotation;
+        fromDimension.MainCamera.GetComponent<AudioListener>().enabled = false;
+        toDimension.MainCamera.GetComponent<AudioListener>().enabled = true;
 
         CurrentDimension = toDimension;
 
@@ -201,6 +203,9 @@ public class DimensionManager : MonoBehaviour
         }
         toDimension.GetComponent<AudioSource>().volume = 1;
         fromDimension.GetComponent<AudioSource>().volume = 0;
+        fromDimension.MainCamera.GetComponent<AudioListener>().enabled = false;
+        toDimension.MainCamera.GetComponent<AudioListener>().enabled = true;
+
         FindObjectOfType(typeof(VideoPlayer)).GetComponent<VideoPlayer>().SetDirectAudioVolume(0, 0);
         CanTransition = true;
     }

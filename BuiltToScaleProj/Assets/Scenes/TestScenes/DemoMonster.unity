@@ -2077,7 +2077,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 556128395}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!20 &556128399
 Camera:
   m_ObjectHideFlags: 0
@@ -2675,7 +2675,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 634878394}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!4 &634878398
 Transform:
   m_ObjectHideFlags: 0
@@ -3099,7 +3099,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 758771271}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!20 &758771275
 Camera:
   m_ObjectHideFlags: 0
@@ -4608,7 +4608,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1080545076}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!4 &1080545080
 Transform:
   m_ObjectHideFlags: 0
@@ -5778,7 +5778,7 @@ Transform:
   m_GameObject: {fileID: 1296326497}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.679382, y: 3.4713027, z: -5.601002}
+  m_LocalPosition: {x: 6.6, y: 3.6000001, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6310,7 +6310,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 8240291978319604f82b6309651abceb, type: 2}
+  - {fileID: 2100000, guid: 732d1647f6fcb404f8cd89e13060b93b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6530,7 +6530,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1377995538}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!4 &1377995542
 Transform:
   m_ObjectHideFlags: 0

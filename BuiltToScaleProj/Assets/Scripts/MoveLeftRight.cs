@@ -25,7 +25,7 @@ public class MoveLeftRight : MonoBehaviour
             transform.position = pos;
             if (randomizeRestartTime)
             {
-                secondUntilRestart = storedRestartTime + Random.Range(minMaxRandom.x, minMaxRandom.y);
+                secondUntilRestart = storedRestartTime + Random.Range(storedRestartTime+minMaxRandom.x, storedRestartTime+minMaxRandom.y);
             }
         }
     }

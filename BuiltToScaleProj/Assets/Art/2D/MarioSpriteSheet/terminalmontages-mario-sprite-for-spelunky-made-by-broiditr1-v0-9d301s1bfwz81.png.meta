@@ -1,0 +1,2855 @@
+fileFormatVersion: 2
+guid: 913a7cd174fb9654a9f778ced604a808
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 594
+        width: 43
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1db804a734263b49ab24b169bd78d6c
+      internalID: 1627795325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_1
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 594
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f4efa66069c77944b4728a03d7c6828
+      internalID: 1077136461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_2
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 594
+        width: 38
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02a2356067c744b478d82e783c8bb3cd
+      internalID: -2070222394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_3
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 594
+        width: 31
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15641f89114e16e4d9bd63efc1e4ed4f
+      internalID: 1589218577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_4
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 595
+        width: 42
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a005c7967c399d4bacdd13cf9344bad
+      internalID: 1995402403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_5
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 594
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cd6104b60bdec740bae9ba016cc3972
+      internalID: 697400334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_6
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 594
+        width: 38
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57e29daea5a35204b98a99e8af7669b0
+      internalID: 1812274270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_7
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 594
+        width: 31
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5f6e91309ae7454aa612844a65f1ff3
+      internalID: -1762703858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_8
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 595
+        width: 42
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7f7f859dec80004082c9c639dfe2a62
+      internalID: -251475558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_9
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 589
+        width: 50
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f85ed9d8455ebd84a8aa912613249d82
+      internalID: 2061484700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_10
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 542
+        width: 49
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddaa7c6b980c58e4396487bc1578f8c6
+      internalID: 515568470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_11
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 490
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47fd2108e7e3ee64788b466e64170748
+      internalID: 1219369111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_12
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 542
+        width: 43
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa4d4512e89a7ea43aa6d671e70ed186
+      internalID: -793120676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_13
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 539
+        width: 44
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73a28b68c2d251e4a80ce0e290a9d8b1
+      internalID: -1654025484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_14
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 542
+        width: 43
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c277f76879d96da4eb2fdcd695e83940
+      internalID: 203662212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_15
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 542
+        width: 48
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23d86b15d96f1034ab806ab0b719db38
+      internalID: -1401661402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_16
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 542
+        width: 44
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d7a7252cd21c0442bd96699eca8fcdb
+      internalID: -1212707067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_17
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 541
+        width: 43
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 509c0f0ead7098045b739a439ebde123
+      internalID: -1642894197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_18
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 542
+        width: 44
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da3d32232f5e31945bdcfefc073ed76f
+      internalID: 1687039922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_19
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 541
+        width: 43
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9865657dd4a57d747a3b7888b71790d5
+      internalID: -1762591608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_20
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 542
+        width: 44
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3e57c103afbc6a4f8ed97ee3aa28b27
+      internalID: -1694951580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_21
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 541
+        width: 44
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7abce03e276396429d39ba75fa890c5
+      internalID: 2058908278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_22
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 542
+        width: 44
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2fc59cff4e38b247b678d3aa6979581
+      internalID: 695277260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_23
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 490
+        width: 40
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab4f03d141be4dc4395cddf66160468d
+      internalID: 1925537551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_24
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 491
+        width: 49
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98271b946d456754db493e3ef1d76bb0
+      internalID: 269689389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_25
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 495
+        width: 48
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c01e82ce2d4e264399bdaf365d06617
+      internalID: 2123384330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_26
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 490
+        width: 47
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edcbf97ef2cd4b2498674dc007385773
+      internalID: -1371493924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_27
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 494
+        width: 48
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ade2294c1cdee04083cb79951064489
+      internalID: -1972517091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_28
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 491
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc816fd4edb51074fb4393e4c6521396
+      internalID: 666695714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_29
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 490
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7230af8310ff65045bfcce938ab14114
+      internalID: 2085709043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_30
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 490
+        width: 49
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b87b6f4506806a74bab78e56ee2f5ea0
+      internalID: 836820358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_31
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 490
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 512e5f3193868e143845241a43a57a95
+      internalID: 159529275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_32
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 490
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eeaa90c3b20b0c4dbe71287fdefdaa6
+      internalID: -655778124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_33
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 443
+        width: 35
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42e246c39d2ade343b0290510c59cfa3
+      internalID: -454177774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_34
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 443
+        width: 37
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac335e8e3f635714393907c8c83d9a17
+      internalID: -475628646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_35
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 443
+        width: 31
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c670e553ef6c5a488cf800dccda9dba
+      internalID: 2071811791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_36
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 444
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59fcd06ef1ee5254ca1a2a212ff1f0d5
+      internalID: -1961234528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_37
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 442
+        width: 35
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 049011ca39f7ea140bd6a069845b45df
+      internalID: -1486847725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_38
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 443
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a32bf3d6cf39a344bafab3ca34370de
+      internalID: 388389500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_39
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 442
+        width: 32
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97e8f3e78cf35e94584a67c5ef881f98
+      internalID: -703115038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_40
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 442
+        width: 31
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa9b66fa2fa954f44b91c34da033cf0b
+      internalID: -1071794594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_41
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 438
+        width: 40
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 202bbd8a2b086b5488ed223d81ea77ba
+      internalID: -2043676392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_42
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 440
+        width: 42
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4fcd6b7d4231d54bb78179f7ab93e8e
+      internalID: -1649264961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_43
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 438
+        width: 40
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e42b6f33298feec48871ac12aa43d0ae
+      internalID: 12007238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_44
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 438
+        width: 42
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df47ee9609dd7bf4ca37b44539aa59da
+      internalID: 934112086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_45
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 391
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb43b02bcb5c7c444bc5997fba7a41f6
+      internalID: -1257791393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_46
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 391
+        width: 35
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c92fb1c96119054792d054f75286a65
+      internalID: 224681413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_47
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 394
+        width: 39
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc64ea1976db9644d8dd73e775226900
+      internalID: 1948542738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_48
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 389
+        width: 39
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 408a8c1a3b3bfaa4aaf9d3969f192d8c
+      internalID: -2085685436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_49
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 388
+        width: 44
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a0c26315842f114492ffdfafccc4f25
+      internalID: 879050710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_50
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 342
+        width: 143
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb1a40d8fcfb18d46a0524db1ad3872f
+      internalID: -826061972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_51
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 398
+        width: 52
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4fc0aaa18717cf41be7167c77a911d8
+      internalID: -1577450967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_52
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 390
+        width: 38
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb4db42e364766345ad779c1f81c2771
+      internalID: -368997314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_53
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 394
+        width: 47
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eae90e88b6dd1e7478620b71ea2b94ba
+      internalID: -244532056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_54
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 341
+        width: 35
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc5b989d9a624de49a5a6de6bf2c98e1
+      internalID: 172457390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_55
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 342
+        width: 32
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7c66e392e8989c4aa05742c24245f2a
+      internalID: -1568223568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_56
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 341
+        width: 33
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ecfe82a8442262499b3ce86742da084
+      internalID: 202475510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_57
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 342
+        width: 32
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e47fa9d457495ab40ad0d724059fc5c6
+      internalID: 116156683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_58
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 341
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8963028fe80e14f4bb8fe23f38345568
+      internalID: -1860373438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_59
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 343
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 254e72a4443df1b43beeda80e0be1613
+      internalID: -1451227537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_60
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 343
+        width: 45
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4b494a174938fa4a9cdf8ac74e08b42
+      internalID: 242824316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_61
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 342
+        width: 48
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d2626559ae153649a2f5b8f4f6bbc6b
+      internalID: 1784694228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_62
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 343
+        width: 45
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 369c8e5da231aca49b129b185f19f232
+      internalID: 1339103685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_63
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 293
+        width: 40
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de69913513e0b1944a0ebbc4a621bda9
+      internalID: 41437350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_64
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 294
+        width: 40
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 467ddfeceaec62e4c86d95b7253d3b86
+      internalID: -1369678668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_65
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 290
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9a3e13b6c8b61d4d8b89e0fae8d7ecc
+      internalID: -396797309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_66
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 293
+        width: 40
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e22c3b468a279a94c8835b17ae458ddb
+      internalID: -1875318648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_67
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 294
+        width: 43
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c58356365f4b3c14d87792f7fdba2f11
+      internalID: 311824951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_68
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 290
+        width: 47
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 998666413664deb499be712fee3c07b9
+      internalID: -2045171355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_69
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 291
+        width: 39
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e64905a6ebafafb4db552a604209cdd8
+      internalID: -1518365803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_70
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 291
+        width: 36
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6440caac6a1c0bf44bf31ea86c0bf35c
+      internalID: -1211361462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_71
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 293
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db74b16700230494da422741a0518b96
+      internalID: 586510402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_72
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 294
+        width: 36
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1287b8fe4af8b3d48a14310dff538900
+      internalID: -1649213882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_73
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 291
+        width: 39
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 466601464f84388439f28ae46b0c9e53
+      internalID: -490187935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_74
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 291
+        width: 36
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88ce1ad362adbf3428927033bdf4f51f
+      internalID: 845124543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_75
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 241
+        width: 40
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceee52a7418b71e4c81530ed4bffec4c
+      internalID: -518140992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_76
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 243
+        width: 40
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cf10f977b2a8dc41815b7633cb74e14
+      internalID: 1254297300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_77
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 241
+        width: 45
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa2ede9ee05cf9b4f9a7f21007ff2a7e
+      internalID: -1186945810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_78
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 242
+        width: 46
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3882f15e1bf1ab4185037d7ae540a68
+      internalID: -773989371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_79
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 242
+        width: 43
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da1b6c0cf90133f4e9dec2f28eb6e0a1
+      internalID: 86529960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_80
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 242
+        width: 40
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41ee5d3f39d39974faebf4b698ccf1d9
+      internalID: 115999805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_81
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 243
+        width: 40
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20bc91fffc8025648a876493241a48b3
+      internalID: 1775236967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_82
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 239
+        width: 44
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e491cef068c631444865ab92cc662e07
+      internalID: 479058536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_83
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 242
+        width: 40
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3d8ee6967e9c204d82777d128b8311e
+      internalID: 1066305690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_84
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 242
+        width: 43
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f01b271037c80db4e9843560d75e9628
+      internalID: -1496492437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_85
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 194
+        width: 38
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c8d673d59a131e47b6b0883e7e23dca
+      internalID: 1274394988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_86
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 194
+        width: 39
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ee9f6dd87d8cd9408ea71594e8a7251
+      internalID: -1407256225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_87
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 194
+        width: 38
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4444389fcbab63b40bd1fcc299c1de07
+      internalID: -2057897183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_88
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 194
+        width: 39
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 531f36eb9c7963e4c837b001d8ef1bcc
+      internalID: -980512631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_89
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 194
+        width: 38
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b44a7ec160268d458deec3d8e7fb93d
+      internalID: 1679188115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_90
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 194
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c262b3ca3a694764689bd6be484f76e7
+      internalID: -1697185003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_91
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 194
+        width: 38
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc6b236d3306e134cbcdcfee996cf687
+      internalID: 69292111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_92
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 191
+        width: 51
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b8254b5476c4954d90a34d3ce6542e0
+      internalID: 1594637889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_93
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 142
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 546553e301a23ce4c849b089ea8c966c
+      internalID: -1992147533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_94
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 142
+        width: 50
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45f27e0f7d8919d48893474d3a4e1c5f
+      internalID: -832609968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_95
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 142
+        width: 45
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4d670278e87dd04c9d02d2e9bb979ee
+      internalID: 108687972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_96
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 142
+        width: 50
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47abd1f7a0a05b940b8f789fa3b84667
+      internalID: 1850291796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_97
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 143
+        width: 39
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f404924017f6efa41b6136fd4f5e9734
+      internalID: 913452747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_98
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 141
+        width: 40
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a759ee3a911b4e54eb52d7098f2a6155
+      internalID: -1707784027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_99
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 140
+        width: 42
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5d51d997df6d9c47aab0e32d4e8ee57
+      internalID: 134626362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_100
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 141
+        width: 40
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed613e77bae388d40875ad275edf4338
+      internalID: 227848208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_101
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 142
+        width: 48
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f0019f1a4940804eab3888f438e8e37
+      internalID: 1660930476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_102
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 142
+        width: 50
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4380129a9d4f92341adb074ecbf508ac
+      internalID: 1701840292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_103
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 142
+        width: 48
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16210489a1e06ff4e94ec189da12f1ea
+      internalID: -233405636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_104
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 142
+        width: 50
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 906d9a71bfb81ae4d935e02215816268
+      internalID: 1115859198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_105
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 90
+        width: 46
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58703e3c66eb57e48b5ade1771f12197
+      internalID: -1989372048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_106
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 90
+        width: 44
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8e08307ec1048e40bdab8cad58dfd67
+      internalID: 1940905487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_107
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 90
+        width: 46
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca39f1a0945f6984886f1c05f9ab8bf8
+      internalID: 2003364410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_108
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 90
+        width: 44
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76492f3518e1a5f49841ffa5f3825746
+      internalID: -848477056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_109
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 90
+        width: 46
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6581c46ec7d3b654bb6ad3b3b3cf92a5
+      internalID: -276490314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_110
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 90
+        width: 44
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f6ebedf46e7ff543b312ec09fa201b9
+      internalID: 161222471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_111
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 91
+        width: 43
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f42444d4ee35a564d9380371049eacfd
+      internalID: -1694062140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_112
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 0
+        width: 140
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b7afc806a3615f44baff1d4d8f98f2c
+      internalID: 708220986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_113
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 90
+        width: 43
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65c93179fb9a5f24182a03e5c21113b6
+      internalID: -1423231920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_114
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 90
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f17ff25db3f2ab14fb897eec94287b3a
+      internalID: 2067050370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_115
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 91
+        width: 44
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f472a9fb1d21c3d40a45d9811aef9d46
+      internalID: 463671971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_116
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 58
+        width: 88
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc6bf745395b5e9438987d7216c86f07
+      internalID: -2036718623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_117
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 43
+        width: 44
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fd138f45b8884545b9ff665adaefb3c
+      internalID: -540340997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_118
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 50
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf9bbe0959b0aee4ab29f338a3efb6e6
+      internalID: 1948073481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_119
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 46
+        width: 31
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eed09e7bbeecff4ebabecb1e8d62788
+      internalID: -266379352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_120
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 42
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec76469be4199384bb4b9f309ca79c31
+      internalID: 142421070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_121
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 42
+        width: 43
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b434ba883353be046ac1b71e875aa8fa
+      internalID: -1441101414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_122
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 43
+        width: 36
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c0afb3d86682764d9b27a840b862c15
+      internalID: -1804524023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_123
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 39
+        width: 47
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0860c99a3ff635c41814951b19aa764b
+      internalID: 1830228303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 8476c5ad6595b8148a4bf0534181a8ba
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_0: 1627795325
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_1: 1077136461
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_10: 515568470
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_100: 227848208
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_101: 1660930476
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_102: 1701840292
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_103: -233405636
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_104: 1115859198
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_105: -1989372048
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_106: 1940905487
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_107: 2003364410
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_108: -848477056
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_109: -276490314
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_11: 1219369111
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_110: 161222471
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_111: -1694062140
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_112: 708220986
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_113: -1423231920
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_114: 2067050370
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_115: 463671971
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_116: -2036718623
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_117: -540340997
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_118: 1948073481
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_119: -266379352
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_12: -793120676
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_120: 142421070
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_121: -1441101414
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_122: -1804524023
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_123: 1830228303
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_13: -1654025484
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_14: 203662212
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_15: -1401661402
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_16: -1212707067
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_17: -1642894197
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_18: 1687039922
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_19: -1762591608
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_2: -2070222394
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_20: -1694951580
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_21: 2058908278
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_22: 695277260
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_23: 1925537551
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_24: 269689389
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_25: 2123384330
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_26: -1371493924
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_27: -1972517091
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_28: 666695714
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_29: 2085709043
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_3: 1589218577
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_30: 836820358
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_31: 159529275
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_32: -655778124
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_33: -454177774
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_34: -475628646
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_35: 2071811791
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_36: -1961234528
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_37: -1486847725
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_38: 388389500
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_39: -703115038
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_4: 1995402403
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_40: -1071794594
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_41: -2043676392
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_42: -1649264961
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_43: 12007238
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_44: 934112086
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_45: -1257791393
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_46: 224681413
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_47: 1948542738
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_48: -2085685436
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_49: 879050710
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_5: 697400334
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_50: -826061972
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_51: -1577450967
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_52: -368997314
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_53: -244532056
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_54: 172457390
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_55: -1568223568
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_56: 202475510
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_57: 116156683
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_58: -1860373438
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_59: -1451227537
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_6: 1812274270
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_60: 242824316
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_61: 1784694228
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_62: 1339103685
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_63: 41437350
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_64: -1369678668
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_65: -396797309
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_66: -1875318648
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_67: 311824951
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_68: -2045171355
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_69: -1518365803
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_7: -1762703858
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_70: -1211361462
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_71: 586510402
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_72: -1649213882
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_73: -490187935
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_74: 845124543
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_75: -518140992
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_76: 1254297300
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_77: -1186945810
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_78: -773989371
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_79: 86529960
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_8: -251475558
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_80: 115999805
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_81: 1775236967
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_82: 479058536
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_83: 1066305690
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_84: -1496492437
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_85: 1274394988
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_86: -1407256225
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_87: -2057897183
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_88: -980512631
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_89: 1679188115
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_9: 2061484700
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_90: -1697185003
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_91: 69292111
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_92: 1594637889
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_93: -1992147533
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_94: -832609968
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_95: 108687972
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_96: 1850291796
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_97: 913452747
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_98: -1707784027
+      terminalmontages-mario-sprite-for-spelunky-made-by-broiditr1-v0-9d301s1bfwz81_99: 134626362
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

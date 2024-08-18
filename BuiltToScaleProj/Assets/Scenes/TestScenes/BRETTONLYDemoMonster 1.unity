@@ -3682,7 +3682,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: THIS CITY NEEDS TO QUITE DOWN!!!!!
+  m_text: THIS CITY NEEDS TO QUIET DOWN!!!!!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -5183,7 +5183,7 @@ GameObject:
   - component: {fileID: 1296326498}
   m_Layer: 0
   m_Name: Main Cmaera
-  m_TagString: MainCamera
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7877,6 +7877,8 @@ PlayableDirector:
     value: {fileID: 1680816556}
   - key: {fileID: 5163933394487409973, guid: b7bf6fbda36de1e4da4c9a164426c643, type: 2}
     value: {fileID: 1398695864}
+  - key: {fileID: 7762711140665976661, guid: b7bf6fbda36de1e4da4c9a164426c643, type: 2}
+    value: {fileID: 1335418490}
   m_ExposedReferences:
     m_References:
     - 55a593c61b2b7784585b933b51285792: {fileID: 1167585538}

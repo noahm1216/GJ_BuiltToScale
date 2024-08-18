@@ -5,12 +5,16 @@ using UnityEngine.Events;
 
 public class Moon : InteractableObject
 {
-    public UnityEvent <bool,float> signalLight;
+    public UnityEvent  ObjectSelected;
     // Start is called before the first frame update
-
+    private void Start()
+    {
+        
+    }
     protected override void OnMouseDown()
     {
-        signalLight?.Invoke(true,2.0f);
+        ObjectSelected?.Invoke();
+        InteractionManager.instance.GetComponent<LightModifier>().FadeToColor(true,1.0f);
         base.OnMouseDown();
     }
 

@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class InteractableProp : MonoBehaviour
 {
+    
     public virtual bool RequestInteraction(int ID)
     {
         return false;

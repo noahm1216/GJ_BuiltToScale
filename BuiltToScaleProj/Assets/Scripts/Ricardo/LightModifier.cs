@@ -60,7 +60,7 @@ public class LightModifier : MonoBehaviour
     {
         // Find all objects of type Camera and cast them to an array of Camera
         Camera[] cameras = FindObjectsOfType<Camera>();
-        Debug.Log("Total Cameras Found " +  cameras.Length);
+        //Debug.Log("Total Cameras Found " +  cameras.Length);
 
         // Return the array of cameras
         return cameras;

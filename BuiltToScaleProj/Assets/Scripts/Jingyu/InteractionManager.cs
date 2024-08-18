@@ -15,6 +15,8 @@ public class InteractionManager : MonoBehaviour
 
     public LayerMask Layer;
 
+    public Dictionary<int,InteractableObject> interactableObjects = new Dictionary<int,InteractableObject>();
+
     private void Awake()
     {
         if (instance == null)
@@ -25,6 +27,29 @@ public class InteractionManager : MonoBehaviour
         {
             Destroy(this);
         }
+    }
+    private void Start()
+    {
+        StoreObjects();
+
+    }
+
+    InteractableObject[] FindAllInteractableObjects()
+    {
+        return FindObjectsOfType<InteractableObject>();
+    }
+
+    void StoreObjects()//This is useful if need to reactivate objects in the scene. 
+    {
+        for (int i = 0; i < FindAllInteractableObjects().Length; i++)
+        {
+            int id = FindAllInteractableObjects()[i].ID;//Caches an interactable object ID
+            InteractableObject obj = FindAllInteractableObjects()[i]; //Caches an interactable object
+            interactableObjects.Add(id, obj);//Adds to dictionary 
+        }
+
+        
+        
     }
 
     // Update is called once per frame

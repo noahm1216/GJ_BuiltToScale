@@ -6,6 +6,7 @@ using UnityEngine.Events;
 using System;
 public class InteractableObject : MonoBehaviour
 {
+    public string _name;
     public Sprite Image;
     public int ID;
 

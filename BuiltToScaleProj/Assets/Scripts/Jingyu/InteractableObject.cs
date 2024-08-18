@@ -9,6 +9,7 @@ public class InteractableObject : MonoBehaviour
     public string _name;
     public Sprite Image;
     public int ID;
+    public List<UnityEvent> Events;
 
     protected virtual void OnMouseDown()
     {
@@ -17,6 +18,11 @@ public class InteractableObject : MonoBehaviour
         g.GetComponentInChildren<Image>().sprite = Image;
         g.GetComponentInChildren<UI_ItemInInventory>().ID = ID;
         gameObject.SetActive(false);
+
+        foreach (UnityEvent e in Events)
+        {
+            e.Invoke();
+        }
 
         if (logInMessages.Instance)
             logInMessages.Instance.SendMessage($"You've Just Picked Up {_name}. You find yourself wondering what it's meant to combine with.");

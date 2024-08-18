@@ -585,6 +585,7 @@ MonoBehaviour:
   _name: Flag
   Image: {fileID: 705110904, guid: bf827af68563b9241b5ec385d9b198f0, type: 3}
   ID: 2
+  Events: []
 --- !u!65 &150260356
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1375,12 +1376,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 526080144}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.2, y: 3.3000183, z: -2.6000001}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 923186458}
+  m_Father: {fileID: 1908069105}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &526080146
 BoxCollider:
@@ -1418,6 +1419,21 @@ MonoBehaviour:
   _name: Moon
   Image: {fileID: 21300000, guid: bd9986a5248190a448591d1c88aa0029, type: 3}
   ID: 1
+  Events:
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 527957469}
+        m_TargetAssemblyTypeName: UnityEngine.Renderer, UnityEngine
+        m_MethodName: set_material
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 2100000, guid: 9ab9a566db5c38c458f1812d2901bd9a, type: 2}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Material, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &527957465
 GameObject:
   m_ObjectHideFlags: 0
@@ -3498,7 +3514,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 527957466}
-  - {fileID: 526080145}
   - {fileID: 2047889674}
   m_Father: {fileID: 1875440190}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5278,7 +5293,7 @@ Transform:
   m_GameObject: {fileID: 1296326497}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.6, y: 3.6000001, z: -10}
+  m_LocalPosition: {x: 11.679382, y: 3.4713027, z: -5.601002}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6552,7 +6567,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 526080145}
   m_Father: {fileID: 1875440190}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1917567400

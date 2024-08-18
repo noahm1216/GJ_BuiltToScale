@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5261433053469533061
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1558569073095917417}
+  - component: {fileID: 2409121448471011530}
+  m_Layer: 0
+  m_Name: NarrativeScriptsObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1558569073095917417
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5261433053469533061}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.0654016, y: -8.308675, z: 23.099165}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2409121448471011530
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5261433053469533061}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c025f75919707a64bb699fb2f7c61690, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nextGoalId: 0
+  gameGoalInfo: []
+  nextMonsterFeedbackId: 0
+  monsterFeedbackInfo:
+  - name: MonsterWant1
+    textLine: The Monsters Seems To Dance In Joy
+    playAfterPrevious: 0
+  - name: MonsterWant2
+    textLine: He Just Keeps Dancing
+    playAfterPrevious: 0
+  - name: MonsterWant3
+    textLine: I bet we could scare him off
+    playAfterPrevious: 1
+  - name: MonsterWant4
+    textLine: Clicking HIm Doesnt seem to work, maybe we can find an item to throw
+      at him
+    playAfterPrevious: 0

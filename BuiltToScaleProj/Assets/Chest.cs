@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Chest : InteractableProp
 {
@@ -22,6 +23,7 @@ public class Chest : InteractableProp
     IEnumerator OpenChest()
     {
         Portal.SetActive(true);
+        Portal.GetComponent<GraphicRaycaster>().enabled = true;
         float TmpTime = 0;
         while (TmpTime < 2) {
 

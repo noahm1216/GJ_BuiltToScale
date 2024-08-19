@@ -41,9 +41,9 @@ public class InteractableCloud : MonoBehaviour
     {
         Vector3 OriginalPos = Key.transform.position;
         float elapsedTime = 0f;
-        while (elapsedTime < 1)
+        while (elapsedTime < 2)
         {
-            Key.transform.position = Vector3.Lerp(OriginalPos, OriginalPos - new Vector3(0, 0.5f, 0), elapsedTime / 1);
+            Key.transform.position = Vector3.Lerp(OriginalPos, OriginalPos - new Vector3(0, 0.5f, 0), elapsedTime / 2);
             elapsedTime += Time.deltaTime;
         }
         yield return null;

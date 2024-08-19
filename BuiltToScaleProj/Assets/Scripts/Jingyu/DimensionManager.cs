@@ -5,6 +5,7 @@ using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Audio;
+using UnityEngine.UI;
 using UnityEngine.Video;
 
 public class DimensionManager : MonoBehaviour
@@ -112,6 +113,17 @@ public class DimensionManager : MonoBehaviour
         fromDimension.MainCamera.GetComponent<AudioListener>().enabled = false;
         toDimension.MainCamera.GetComponent<AudioListener>().enabled = true;
 
+        foreach(GraphicRaycaster G in toDimension.GetComponentsInChildren<GraphicRaycaster>())
+        {
+            G.enabled = true;
+        }
+
+        foreach (GraphicRaycaster G in fromDimension.GetComponentsInChildren<GraphicRaycaster>())
+        {
+            G.enabled = false;
+        }
+
+
         CurrentDimension = toDimension;
 
         CanTransition = true;
@@ -205,6 +217,16 @@ public class DimensionManager : MonoBehaviour
             toDimension.MainCamera.fieldOfView = Mathf.Lerp(OriginalFieldofView, TargetFieldofView, elapsedTime / Duration);
             elapsedTime += Time.deltaTime;
             yield return null; // Wait for the next frame
+        }
+
+        foreach (GraphicRaycaster G in toDimension.GetComponentsInChildren<GraphicRaycaster>())
+        {
+            G.enabled = true;
+        }
+
+        foreach (GraphicRaycaster G in fromDimension.GetComponentsInChildren<GraphicRaycaster>())
+        {
+            G.enabled = false;
         }
         //toDimension.GetComponent<AudioSource>().volume = 1;
         //fromDimension.GetComponent<AudioSource>().volume = 0;

@@ -10,6 +10,12 @@ public class MusicManager : MonoBehaviour
     public AudioMixer audioMixer;
     public AudioMixerGroup MX1;
     public AudioMixerGroup MX2;
+    public AudioMixerGroup MX_World1;
+    public AudioMixerGroup MX_World2;
+    public AudioMixerGroup MX_World3;
+    public AudioMixerGroup MX_World4;
+    public AudioMixerGroup MX_World5;
+    public AudioMixerGroup MX_World6;
 
     public float FadeDuration = 1f;
 
@@ -63,6 +69,12 @@ public class MusicManager : MonoBehaviour
     {
         if (group.name == "MX1") return "Volume_MX1";
         else if (group.name == "MX2") return "Volume_MX2";
+        else if (group.name == "World 1") return "World1_MX";
+        else if (group.name == "World 2") return "World2_MX";
+        else if (group.name == "World 3") return "World3_MX";
+        else if (group.name == "World 4") return "World4_MX";
+        else if (group.name == "World 5") return "World5_MX";
+        else if (group.name == "World 6") return "World6_MX";
         return "null";
     }
 }

@@ -268,7 +268,7 @@ MonoBehaviour:
   audioMixer: {fileID: 24100000, guid: f9d34b0b65e664942ab86f3b271abc1c, type: 2}
   MX1: {fileID: -7335114422895650227, guid: f9d34b0b65e664942ab86f3b271abc1c, type: 2}
   MX2: {fileID: 443179448223708526, guid: f9d34b0b65e664942ab86f3b271abc1c, type: 2}
-  FadeDuration: 3
+  FadeDuration: 2.5
 --- !u!82 &687621355
 AudioSource:
   m_ObjectHideFlags: 0

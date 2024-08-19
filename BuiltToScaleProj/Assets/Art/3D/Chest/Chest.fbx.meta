@@ -13,7 +13,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: M_Chest_Metal
-    second: {fileID: 2100000, guid: 50e6a919c86b61545ace52e04b94fdd1, type: 2}
+    second: {fileID: 2100000, guid: fed3e9fa5b03e61439c3adcd18ba555f, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule

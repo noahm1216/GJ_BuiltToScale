@@ -1,0 +1,673 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5161103046031274842
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2457555377717823666}
+  m_Layer: 0
+  m_Name: DancingMonsters
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2457555377717823666
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5161103046031274842}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5379646283683274801}
+  - {fileID: 9143879354386413888}
+  - {fileID: 3494858764157568701}
+  - {fileID: 8104315725951022131}
+  - {fileID: 4802440048229356723}
+  - {fileID: 1206363483187797257}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1672916078060387042
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2457555377717823666}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.1860791
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.1574602
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8664709
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.65
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.83
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.99000496
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.14103317
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 16.215
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8534381131781555531, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f80adfb7d8e0057408ac6061d75e1c70, type: 2}
+    - target: {fileID: 919132149155446097, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+      propertyPath: m_Name
+      value: monster - Ymca Dance (5)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8366214824010669765}
+  m_SourcePrefab: {fileID: 100100000, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+--- !u!4 &1206363483187797257 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+  m_PrefabInstance: {fileID: 1672916078060387042}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2014812859306411955 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+  m_PrefabInstance: {fileID: 1672916078060387042}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &8366214824010669765
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2014812859306411955}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+  m_Controller: {fileID: 9100000, guid: db752ce5da95ceb4a9b04e94acc09f92, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!1001 &3966126436258455894
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2457555377717823666}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.6196781
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.54262704
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.6196781
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.75
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8534381131781555531, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7ef04c4f2a8105b44a1fb323b6608269, type: 2}
+    - target: {fileID: 919132149155446097, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+      propertyPath: m_Name
+      value: monster - Ymca Dance (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 38131583912459663}
+  m_SourcePrefab: {fileID: 100100000, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+--- !u!4 &3494858764157568701 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+  m_PrefabInstance: {fileID: 3966126436258455894}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &4308796038752607239 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+  m_PrefabInstance: {fileID: 3966126436258455894}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &38131583912459663
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4308796038752607239}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+  m_Controller: {fileID: 9100000, guid: db752ce5da95ceb4a9b04e94acc09f92, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!1001 &4985212911630644056
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2457555377717823666}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.37269837
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.2748037
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.3138248
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.25
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.97346437
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.22883873
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -26.457
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8534381131781555531, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d5dca55cf0b32f54aafa61928aea93f1, type: 2}
+    - target: {fileID: 919132149155446097, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+      propertyPath: m_Name
+      value: monster - Ymca Dance (4)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4020135817195146137}
+  m_SourcePrefab: {fileID: 100100000, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+--- !u!4 &4802440048229356723 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+  m_PrefabInstance: {fileID: 4985212911630644056}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &5327302521740480009 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+  m_PrefabInstance: {fileID: 4985212911630644056}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &4020135817195146137
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5327302521740480009}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+  m_Controller: {fileID: 9100000, guid: db752ce5da95ceb4a9b04e94acc09f92, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!1001 &5558267362602141658
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2457555377717823666}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.09
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8534381131781555531, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 120a0ad8863ce2b408773adea0142bbb, type: 2}
+    - target: {fileID: 919132149155446097, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+      propertyPath: m_Name
+      value: monster - Ymca Dance
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8982960423564853479}
+  m_SourcePrefab: {fileID: 100100000, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+--- !u!1 &4747787305517939339 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+  m_PrefabInstance: {fileID: 5558267362602141658}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &8982960423564853479
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4747787305517939339}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+  m_Controller: {fileID: 9100000, guid: db752ce5da95ceb4a9b04e94acc09f92, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!4 &5379646283683274801 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+  m_PrefabInstance: {fileID: 5558267362602141658}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8643227145999569880
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2457555377717823666}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.44321364
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.32679713
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.3732011
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.25
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.98693675
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.16110857
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 18.542
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8534381131781555531, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9e0c4dde0e1972141a27d8d77c007fd3, type: 2}
+    - target: {fileID: 919132149155446097, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+      propertyPath: m_Name
+      value: monster - Ymca Dance (3)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1998769933913650894}
+  m_SourcePrefab: {fileID: 100100000, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+--- !u!4 &8104315725951022131 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+  m_PrefabInstance: {fileID: 8643227145999569880}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &8877580690504052361 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+  m_PrefabInstance: {fileID: 8643227145999569880}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1998769933913650894
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8877580690504052361}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+  m_Controller: {fileID: 9100000, guid: db752ce5da95ceb4a9b04e94acc09f92, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!1001 &8750261730825182891
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2457555377717823666}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.3447
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.5874183
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.3447
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.75
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8534381131781555531, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 20d2547e6f728314081e2dbf805123b9, type: 2}
+    - target: {fileID: 919132149155446097, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+      propertyPath: m_Name
+      value: monster - Ymca Dance (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2381051208768571689}
+  m_SourcePrefab: {fileID: 100100000, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+--- !u!1 &8479791560308466682 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+  m_PrefabInstance: {fileID: 8750261730825182891}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &2381051208768571689
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8479791560308466682}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+  m_Controller: {fileID: 9100000, guid: db752ce5da95ceb4a9b04e94acc09f92, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!4 &9143879354386413888 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 748cd36bc11855a4fabc4f1bb531cc0a, type: 3}
+  m_PrefabInstance: {fileID: 8750261730825182891}
+  m_PrefabAsset: {fileID: 0}

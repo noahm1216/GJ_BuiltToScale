@@ -17,11 +17,15 @@ public class LightModifier : MonoBehaviour
     
     public Color dayLightColor;
     public Color nightLightColor;
+    
+    public float dayLightIntensity = 1;
+    public float nightLightIntensity = .45f;
 
     private Color currentColor;
     private Color currentCloudColor;
     private Color currentGroundColor;
     private Color currentLightColor;
+    private float currentLightIntensity;
     public bool isDayTime = true;
 
     public GameObject Moon;
@@ -44,6 +48,7 @@ public class LightModifier : MonoBehaviour
     {
         RenderSettings.skybox.SetColor("_SkyTint", dayColor);
         RenderSettings.skybox.SetColor("_GroundColor", dayGroundColor);
+        RenderSettings.ambientIntensity = dayLightIntensity;
         cloudsMat = cloud.GetComponent<MeshRenderer>().sharedMaterial;
         cloudsMat.SetColor("_AlbedoColor", dayCloudColor);
         directionalLight.color = dayLightColor;
@@ -75,12 +80,14 @@ public class LightModifier : MonoBehaviour
             c.backgroundColor = nightColor;
             RenderSettings.skybox.SetColor("_SkyTint", nightColor);
             RenderSettings.skybox.SetColor("_GroundColor", nightGroundColor);
+            RenderSettings.ambientIntensity = nightLightIntensity;
             cloudsMat.SetColor("_AlbedoColor", nightCloudColor);
             directionalLight.color = nightLightColor;
             currentColor = RenderSettings.skybox.GetColor("_SkyTint");
             currentLightColor = directionalLight.color;
             currentGroundColor = RenderSettings.skybox.GetColor("_GroundColor");
             currentCloudColor = cloudsMat.GetColor("_AlbedoColor");
+            currentLightIntensity = RenderSettings.ambientIntensity;
             isDayTime = false;
         }
     }
@@ -94,11 +101,13 @@ public class LightModifier : MonoBehaviour
             c.backgroundColor = dayColor;
             RenderSettings.skybox.SetColor("_SkyTint", dayColor);
             RenderSettings.skybox.SetColor("_GroundColor", dayGroundColor);
+            RenderSettings.ambientIntensity = dayLightIntensity;
             cloudsMat.SetColor("_AlbedoColor", dayCloudColor);
             directionalLight.color = nightLightColor;
             currentColor = RenderSettings.skybox.GetColor("_SkyTint");
             currentGroundColor = RenderSettings.skybox.GetColor("_GroundColor");
             currentCloudColor = cloudsMat.GetColor("_AlbedoColor");
+            currentLightIntensity = RenderSettings.ambientIntensity;
             currentLightColor = directionalLight.color;
             isDayTime = true;
         }
@@ -122,6 +131,7 @@ public class LightModifier : MonoBehaviour
             currentColor = RenderSettings.skybox.GetColor("_SkyTint");
             currentGroundColor = RenderSettings.skybox.GetColor("_GroundColor");
             currentCloudColor = cloudsMat.GetColor("_AlbedoColor");
+            currentLightIntensity = RenderSettings.ambientIntensity;
             currentLightColor = directionalLight.color;
         }
     }
@@ -147,6 +157,7 @@ public class LightModifier : MonoBehaviour
                 Color _currentCloudColor = Color.Lerp(currentCloudColor, dayCloudColor, elapsedTime / duration);
                 Color _currentGroundColor = Color.Lerp(currentGroundColor, dayGroundColor, elapsedTime / duration);
                 Color _currentLightColor = Color.Lerp(currentLightColor, dayLightColor, elapsedTime / duration);
+                float _currentLightIntensity = Mathf.Lerp(currentLightIntensity, dayLightIntensity, elapsedTime / duration);
                 isDayTime = true;
                 // Set the background color for all cameras
                 foreach (Camera c in GetAllCams())
@@ -156,16 +167,19 @@ public class LightModifier : MonoBehaviour
                     currentLightColor = directionalLight.color;
                     currentGroundColor = RenderSettings.skybox.GetColor("_GroundColor");
                     currentCloudColor = cloudsMat.GetColor("_AlbedoColor");
+                    currentLightIntensity = RenderSettings.ambientIntensity;
                    // c.clearFlags = CameraClearFlags.SolidColor;
                    // c.backgroundColor = _currentColor;
                    RenderSettings.skybox.SetColor("_SkyTint", _currentColor);
                    RenderSettings.skybox.SetColor("_GroundColor", _currentGroundColor);
+                   RenderSettings.ambientIntensity = _currentLightIntensity;
                    cloudsMat.SetColor("_AlbedoColor", _currentCloudColor);
                    directionalLight.color = _currentLightColor;
                     currentColor = RenderSettings.skybox.GetColor("_SkyTint");
                     currentLightColor = directionalLight.color;
                     currentGroundColor = RenderSettings.skybox.GetColor("_GroundColor");
                     currentCloudColor = cloudsMat.GetColor("_AlbedoColor");
+                    currentLightIntensity = RenderSettings.ambientIntensity;
                 }
 
                 // Increase the elapsed time
@@ -189,6 +203,7 @@ public class LightModifier : MonoBehaviour
                 Color _currentCloudColor = Color.Lerp(currentCloudColor, nightCloudColor, elapsedTime / duration);
                 Color _currentGroundColor = Color.Lerp(currentGroundColor, nightGroundColor, elapsedTime / duration);
                 Color _currentLightColor = Color.Lerp(currentLightColor, nightLightColor, elapsedTime / duration);
+                float _currentLightIntensity = Mathf.Lerp(currentLightIntensity, nightLightIntensity, elapsedTime / duration);
 
                 // Set the background color for all cameras
                 foreach (Camera c in GetAllCams())
@@ -197,10 +212,12 @@ public class LightModifier : MonoBehaviour
                   //  c.backgroundColor = _currentColor;
                     RenderSettings.skybox.SetColor("_SkyTint",_currentColor);
                     RenderSettings.skybox.SetColor("_GroundColor",_currentGroundColor);
+                    RenderSettings.ambientIntensity = _currentLightIntensity;
                     cloudsMat.SetColor("_AlbedoColor", _currentCloudColor);
                     directionalLight.color = _currentLightColor;
                     currentColor = RenderSettings.skybox.GetColor("_SkyTint");
                     currentGroundColor = RenderSettings.skybox.GetColor("_GroundColor");
+                    currentLightIntensity = RenderSettings.ambientIntensity;
                     currentLightColor = directionalLight.color;
                 }
 
@@ -223,6 +240,7 @@ public class LightModifier : MonoBehaviour
     {
         RenderSettings.skybox.SetColor("_SkyTint", dayColor);
         RenderSettings.skybox.SetColor("_GroundColor", dayGroundColor);
+        RenderSettings.ambientIntensity = dayLightIntensity;
         directionalLight.color = dayLightColor;
         cloudsMat = cloud.GetComponent<MeshRenderer>().sharedMaterial;
         cloudsMat.SetColor("_AlbedoColor", dayCloudColor);

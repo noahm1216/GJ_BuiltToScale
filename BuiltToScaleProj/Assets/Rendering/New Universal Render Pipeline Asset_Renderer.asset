@@ -146,12 +146,12 @@ MonoBehaviour:
   m_Active: 1
   settings:
     passTag: RenderObjects
-    Event: 550
+    Event: 600
     filterSettings:
       RenderQueueType: 0
       LayerMask:
         serializedVersion: 2
-        m_Bits: 1024
+        m_Bits: 1056
       PassNames: []
     overrideMaterial: {fileID: 0}
     overrideMaterialPassIndex: 0

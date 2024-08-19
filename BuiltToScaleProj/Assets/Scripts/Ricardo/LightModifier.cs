@@ -82,8 +82,6 @@ public class LightModifier : MonoBehaviour
             currentGroundColor = RenderSettings.skybox.GetColor("_GroundColor");
             currentCloudColor = cloudsMat.GetColor("_AlbedoColor");
             isDayTime = false;
-            SleepingGuard.SetActive(true);
-            StandingGuard.SetActive(false);
         }
     }
 
@@ -130,6 +128,8 @@ public class LightModifier : MonoBehaviour
 
     public void FadeToColor(bool day = true, float duration = 0)
     {
+        SleepingGuard.SetActive(true);
+        StandingGuard.SetActive(false);
         GetBackgroundColor();
         StartCoroutine(FadeBetweenColors(day, duration));
     }

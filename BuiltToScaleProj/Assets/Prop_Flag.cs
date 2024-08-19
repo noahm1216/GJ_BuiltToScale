@@ -12,6 +12,8 @@ public class Prop_Flag : InteractableProp
     public Transform endPoint;
     public ToyGuard GuardRef;
 
+    public GameObject FlagPost;
+
     public UnityEvent ToggleGate;
 
     public override bool RequestInteraction(int ID)
@@ -79,6 +81,10 @@ public class Prop_Flag : InteractableProp
         float startX = Flag.transform.position.x;
         float startZ = Flag.transform.position.z;
 
+        Flag.SetActive(true);
+        FlagPost.SetActive(true);
+
+
         while (elapsedTime < duration)
         {
             // Calculate the new y position
@@ -107,6 +113,8 @@ public class Prop_Flag : InteractableProp
                 yield return null;
             }
             Flag.transform.position = new Vector3(startX, startY, startZ);
+            Flag.SetActive(false);
+            FlagPost.SetActive(false);
         }
 
         // Ensure the object ends exactly at the end y position

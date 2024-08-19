@@ -15,10 +15,7 @@ public class ToyGuard : MonoBehaviour
 
     private void Update()
     {
-        if (!LightModifierRef.isDayTime)
-        {
-            GetComponent<MeshRenderer>().enabled = false;
-        }
+
     }
 
     public IEnumerator Angry()

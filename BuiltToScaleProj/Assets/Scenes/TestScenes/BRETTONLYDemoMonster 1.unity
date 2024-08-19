@@ -1035,7 +1035,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60.000004
+  field of view: 47.32
   orthographic: 0
   orthographic size: 5
   m_Depth: 0
@@ -1061,8 +1061,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 159603481}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.17129554, y: -0, z: -0, w: 0.9852198}
-  m_LocalPosition: {x: -0.5500002, y: 4.123, z: -8.712}
+  m_LocalRotation: {x: 0.09166905, y: -0.23798095, z: 0.022567652, w: 0.9666709}
+  m_LocalPosition: {x: -4.489, y: 7.733, z: -8.743}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8833,13 +8833,19 @@ MonoBehaviour:
   nightColor: {r: 0.049918093, g: 0.05768094, b: 0.15471691, a: 0}
   dayCloudColor: {r: 0, g: 0, b: 0, a: 0}
   nightCloudColor: {r: 0, g: 0, b: 0, a: 0}
+  dayGroundColor: {r: 0, g: 0, b: 0, a: 0}
+  nightGroundColor: {r: 0, g: 0, b: 0, a: 0}
+  dayLightColor: {r: 0, g: 0, b: 0, a: 0}
+  nightLightColor: {r: 0, g: 0, b: 0, a: 0}
   isDayTime: 1
   Moon: {fileID: 0}
   MoonDownPosition: {x: 0, y: 0, z: 0}
   MoonUpPosition: {x: 0, y: 0, z: 0}
-  clouds: []
   cloudsMat: {fileID: 0}
   cloud: {fileID: 0}
+  StandingGuard: {fileID: 0}
+  SleepingGuard: {fileID: 0}
+  directionalLight: {fileID: 0}
 --- !u!1 &1377995538
 GameObject:
   m_ObjectHideFlags: 0

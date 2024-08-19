@@ -9,12 +9,21 @@ public class BoomBox : InteractableProp
     public GameObject GameCompleteCutscene;
     public PlayableDirector GameCompleteCutsceneRemote;
 
+    public AudioSource World1Audio;
+    public AudioClip RickRollMusic;
+
     public override bool RequestInteraction(int ID)
     {
         if (ID == 4)
         {
             Monsters.SetActive(true);
             return true;
+        }
+
+        if (ID == 5)
+        {
+            World1Audio.clip = RickRollMusic;
+            World1Audio.Play();
         }
 
         if (ID == 0)

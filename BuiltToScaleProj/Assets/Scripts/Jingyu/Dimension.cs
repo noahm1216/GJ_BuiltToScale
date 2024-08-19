@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
 using Cinemachine;
 
 public class Dimension : MonoBehaviour
@@ -13,4 +14,6 @@ public class Dimension : MonoBehaviour
 
     public List<Dimension> ZoomInDimensions;
     public Dimension ZoomOutDimension;
+
+    public AudioMixerGroup MixerGroup;
 }

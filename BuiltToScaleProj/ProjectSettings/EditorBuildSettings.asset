@@ -8,7 +8,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TestScenes/DemoMonster.unity
     guid: 7b47e56cb5a7e7c42bc6a40338bb7569
-  - enabled: 1
-    path: Assets/Scenes/TestScenes/MillieTesting.unity
-    guid: 5e15262c75672184dbefa4059580d45e
   m_configObjects: {}

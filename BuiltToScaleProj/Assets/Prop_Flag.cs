@@ -53,7 +53,7 @@ public class Prop_Flag : InteractableProp
             Debug.Log("It's day time. Gate failed.");
             if (GuardRef.gameObject.activeSelf)
             {
-                GuardRef.StartCoroutine(GuardRef.Angry());
+                GuardRef.BeAngry();
             }
             StartCoroutine(MoveFlag(startPosY, endPoint.position.y+1, 1.0f, true));
             return;

@@ -13,6 +13,12 @@ public class EnableRandomObjs : MonoBehaviour
         if (objsToEnable.Length == 0)
             return;
 
+        DisableAllObjects();
+    }
+
+
+    public void DisableAllObjects()
+    {
         foreach (GameObject obj in objsToEnable)
             obj.SetActive(false);
     }
@@ -22,8 +28,7 @@ public class EnableRandomObjs : MonoBehaviour
         if (objsToEnable.Length == 0)
             return;
 
-        foreach (GameObject obj in objsToEnable)
-            obj.SetActive(false);
+        DisableAllObjects();
 
         if (nextIdToEnable < objsToEnable.Length)
             objsToEnable[nextIdToEnable].SetActive(true);

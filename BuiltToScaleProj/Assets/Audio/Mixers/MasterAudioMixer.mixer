@@ -61,6 +61,20 @@ AudioMixerEffectController:
   m_SendTarget: {fileID: 0}
   m_EnableWetMix: 0
   m_Bypass: 0
+--- !u!244 &-3842391939944051157
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_EffectID: 24d15a8f4006345fcb85ea88449a48ba
+  m_EffectName: Attenuation
+  m_MixLevel: 640407ee4e3e2455c88008fda751df17
+  m_Parameters: []
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
 --- !u!243 &-1572236481045008749
 AudioMixerGroupController:
   m_ObjectHideFlags: 0
@@ -126,6 +140,8 @@ AudioMixerController:
     name: World5_MX
   - guid: 2fac49328cd79426a920bfed6b6df46c
     name: World6_MX
+  - guid: 1d47075a843ee4fe0aea60b4e8c2c63e
+    name: World7_MX
   m_AudioMixerGroupViews:
   - guids:
     - ec727a3cbfd384d2cb8a8b4bdc70aa7b
@@ -137,6 +153,7 @@ AudioMixerController:
     - 21abeb4e7a4e4427288c052f3da59ae7
     - 1b2876ee23d6e40aeb90f9073c364b67
     - 9cabf2b8498974fe7ae2a169d5c60a26
+    - 6ca6548adfce44afcbb4f1cbf40a1f02
     name: View
   m_CurrentViewIndex: 0
   m_TargetSnapshot: {fileID: 24500006}
@@ -158,6 +175,7 @@ AudioMixerGroupController:
   - {fileID: 3608989467025908373}
   - {fileID: 280822272910009761}
   - {fileID: 7154475501031345285}
+  - {fileID: 2379327060140037619}
   m_Volume: 5087db7773a3c4873aa82486d5bf84bd
   m_Pitch: 2362e7bde42084ca39f8f36cb1431434
   m_Send: 00000000000000000000000000000000
@@ -196,6 +214,7 @@ AudioMixerSnapshotController:
     f24393933ce26492ab0a895f6922f563: -80
     fa1182d6925d14f28b59829bcc3b72eb: -80
     984acb78748c8461894b0b6bea94e7ac: -80
+    1d47075a843ee4fe0aea60b4e8c2c63e: -80
     d7d7a79aca5cc4a6ca08f784e3fe251e: -80
   m_TransitionOverrides: {}
 --- !u!244 &277608854158611209
@@ -264,6 +283,25 @@ AudioMixerEffectController:
   m_SendTarget: {fileID: 0}
   m_EnableWetMix: 0
   m_Bypass: 0
+--- !u!243 &2379327060140037619
+AudioMixerGroupController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: World 7
+  m_AudioMixer: {fileID: 24100000}
+  m_GroupID: 6ca6548adfce44afcbb4f1cbf40a1f02
+  m_Children: []
+  m_Volume: 1d47075a843ee4fe0aea60b4e8c2c63e
+  m_Pitch: b5c77df28e2af410aade00d6f92cffa6
+  m_Send: 00000000000000000000000000000000
+  m_Effects:
+  - {fileID: -3842391939944051157}
+  m_UserColorIndex: 2
+  m_Mute: 0
+  m_Solo: 0
+  m_BypassEffects: 0
 --- !u!243 &3425448016303062714
 AudioMixerGroupController:
   m_ObjectHideFlags: 0

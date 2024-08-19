@@ -75,6 +75,7 @@ public class MusicManager : MonoBehaviour
         else if (group.name == "World 4") return "World4_MX";
         else if (group.name == "World 5") return "World5_MX";
         else if (group.name == "World 6") return "World6_MX";
+        else if (group.name == "World 7") return "World7_MX";
         return "null";
     }
 }

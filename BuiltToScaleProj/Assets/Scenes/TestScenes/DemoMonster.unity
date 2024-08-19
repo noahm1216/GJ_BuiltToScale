@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.3428203, g: 0.7024702, b: 1.2910566, a: 1}
+  m_IndirectSpecularColor: {r: 0.34282014, g: 0.7024694, b: 1.2910538, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -7334,12 +7334,12 @@ AudioSource:
   m_GameObject: {fileID: 1354697494}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 2379327060140037619, guid: f9d34b0b65e664942ab86f3b271abc1c, type: 2}
+  m_audioClip: {fileID: 8300000, guid: e3caf6e96c8294bc8b7d92fb8447015a, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.2
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -7439,7 +7439,7 @@ MonoBehaviour:
   TransitionVCAM: {fileID: 0}
   ZoomInDimensions: []
   ZoomOutDimension: {fileID: 858085787}
-  MixerGroup: {fileID: 0}
+  MixerGroup: {fileID: 2379327060140037619, guid: f9d34b0b65e664942ab86f3b271abc1c, type: 2}
 --- !u!1 &1359918881
 GameObject:
   m_ObjectHideFlags: 0

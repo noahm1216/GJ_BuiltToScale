@@ -14,6 +14,8 @@ public class Prop_Flag : InteractableProp
 
     public GameObject FlagPost;
 
+    public BoxCollider DinoCollider;
+
     public UnityEvent ToggleGate;
 
     public override bool RequestInteraction(int ID)
@@ -62,6 +64,7 @@ public class Prop_Flag : InteractableProp
         {
             //Guard is sleeping, raise the gate to reveal the dragon
             ToggleGate?.Invoke();
+            DinoCollider.enabled = true;
             LowerFlag();
 
         }

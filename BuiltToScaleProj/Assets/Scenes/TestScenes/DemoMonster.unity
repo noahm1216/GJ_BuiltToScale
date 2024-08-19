@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.34282014, g: 0.7024694, b: 1.2910538, a: 1}
+  m_IndirectSpecularColor: {r: 0.3428203, g: 0.7024702, b: 1.2910566, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -675,7 +675,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _name: Flag
-  Image: {fileID: 705110904, guid: bf827af68563b9241b5ec385d9b198f0, type: 3}
+  Image: {fileID: 21300000, guid: d6a38fb58ef6d4f4f88e3280ad986843, type: 3}
   ID: 2
   Events:
   - m_PersistentCalls:
@@ -2381,7 +2381,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _name: Moon
-  Image: {fileID: 21300000, guid: bd9986a5248190a448591d1c88aa0029, type: 3}
+  Image: {fileID: 21300000, guid: b2580dd3ce0e4af48ab14f909dacd24a, type: 3}
   ID: 1
   Events:
   - m_PersistentCalls:
@@ -6569,6 +6569,7 @@ MonoBehaviour:
   endPoint: {fileID: 1430768741}
   GuardRef: {fileID: 1241490872}
   FlagPost: {fileID: 1055097407}
+  DinoCollider: {fileID: 1536108403}
   ToggleGate:
     m_PersistentCalls:
       m_Calls:
@@ -6989,7 +6990,7 @@ Transform:
   m_GameObject: {fileID: 1296326497}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.679382, y: 3.4713027, z: -5.601002}
+  m_LocalPosition: {x: 6.6, y: 3.6000001, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8343,6 +8344,11 @@ CanvasRenderer:
 --- !u!4 &1536108400 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7843042166779263240, guid: 4a33774473a68bc4eb3e02ab66e6087f, type: 3}
+  m_PrefabInstance: {fileID: 6882751688337760753}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1536108403 stripped
+BoxCollider:
+  m_CorrespondingSourceObject: {fileID: 4473436455308213696, guid: 4a33774473a68bc4eb3e02ab66e6087f, type: 3}
   m_PrefabInstance: {fileID: 6882751688337760753}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1583561573
@@ -10004,10 +10010,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1288400305}
     m_Modifications:
+    - target: {fileID: 4473436455308213696, guid: 4a33774473a68bc4eb3e02ab66e6087f, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4695503411443001494, guid: 4a33774473a68bc4eb3e02ab66e6087f, type: 3}
       propertyPath: m_Name
       value: Monster
       objectReference: {fileID: 0}
+    - target: {fileID: 7177097776394246664, guid: 4a33774473a68bc4eb3e02ab66e6087f, type: 3}
+      propertyPath: Image
+      value: 
+      objectReference: {fileID: 21300000, guid: 7888bc0048a69e7459ca030e8a5262ef, type: 3}
     - target: {fileID: 7843042166779263240, guid: 4a33774473a68bc4eb3e02ab66e6087f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.5

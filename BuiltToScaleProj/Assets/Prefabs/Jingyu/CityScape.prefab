@@ -6641,6 +6641,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Birds
       objectReference: {fileID: 0}
+    - target: {fileID: 3702781438096775756, guid: 9e05dea83e74b3c4fac53a19cd036c6a, type: 3}
+      propertyPath: sinSpeed
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9143129031419206493, guid: 9e05dea83e74b3c4fac53a19cd036c6a, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.4
@@ -6655,11 +6659,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9143129031419206493, guid: 9e05dea83e74b3c4fac53a19cd036c6a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -10.34
+      value: -9.38
       objectReference: {fileID: 0}
     - target: {fileID: 9143129031419206493, guid: 9e05dea83e74b3c4fac53a19cd036c6a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 10.27
+      value: 9.99
       objectReference: {fileID: 0}
     - target: {fileID: 9143129031419206493, guid: 9e05dea83e74b3c4fac53a19cd036c6a, type: 3}
       propertyPath: m_LocalPosition.z

@@ -15,7 +15,6 @@ Material:
   - _MK_ARTISTIC_ANIMATION_STUTTER
   - _MK_DETAIL_BLEND_MIX
   - _MK_ENVIRONMENT_REFLECTIONS_ADVANCED
-  - _MK_IRIDESCENCE_DEFAULT
   - _MK_LIGHT_CEL
   - _MK_RECEIVE_SHADOWS
   - _MK_RIM_DEFAULT
@@ -237,8 +236,8 @@ Material:
     - _IndirectFade: 1
     - _Initialized: 0
     - _InputTab: 1
-    - _Iridescence: 1
-    - _IridescenceSize: 5
+    - _Iridescence: 0
+    - _IridescenceSize: 1.37
     - _IridescenceSmoothness: 0.5
     - _IridescenceThresholdOffset: 0
     - _Light: 1
@@ -314,7 +313,7 @@ Material:
     - _LightTransmissionColor: {r: 1, g: 0.65, b: 0, a: 1}
     - _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
     - _RimBrightColor: {r: 1, g: 1, b: 1, a: 1}
-    - _RimColor: {r: 0.6037736, g: 0.6037736, b: 0.6037736, a: 1}
+    - _RimColor: {r: 0.6037736, g: 0.6037736, b: 0.6037736, a: 0.14117648}
     - _RimDarkColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecularColor: {r: 0.20312497, g: 0.20312497, b: 0.20312497, a: 1}
     - _VertexAnimationFrequency: {r: 2.5, g: 2.5, b: 2.5, a: 1}

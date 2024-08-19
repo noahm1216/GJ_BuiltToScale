@@ -20,7 +20,7 @@ public class MoveLeftRight : MonoBehaviour
     private void FixedUpdate()
     {
         transform.position += new Vector3(moveSpeed, 0, 0) * Time.fixedDeltaTime;
-        if (transform.position.x > (pos.x + secondUntilRestart))
+        if (transform.position.x < (pos.x - secondUntilRestart) || transform.position.x > (pos.x + secondUntilRestart))
         {
             transform.position = pos;
             if (randomizeRestartTime)

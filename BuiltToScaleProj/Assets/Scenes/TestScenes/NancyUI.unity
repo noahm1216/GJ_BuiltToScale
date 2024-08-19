@@ -536,7 +536,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4517264756490303197, guid: 1636d19813cc2be46bc5fd2b43435f72, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 1063
+      value: -0.00012207031
       objectReference: {fileID: 0}
     - target: {fileID: 4628664517754315387, guid: 1636d19813cc2be46bc5fd2b43435f72, type: 3}
       propertyPath: m_AnchorMax.y
@@ -574,12 +574,20 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6201824825367353175, guid: 1636d19813cc2be46bc5fd2b43435f72, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7830418987640448365, guid: 1636d19813cc2be46bc5fd2b43435f72, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7830418987640448365, guid: 1636d19813cc2be46bc5fd2b43435f72, type: 3}
       propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7830418987640448365, guid: 1636d19813cc2be46bc5fd2b43435f72, type: 3}
+      propertyPath: m_AnchorMin.y
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8588277225564858500, guid: 1636d19813cc2be46bc5fd2b43435f72, type: 3}
@@ -703,6 +711,14 @@ PrefabInstance:
     - target: {fileID: 6152204807566018622, guid: 541da660bec6d5c4686f385d0f3cc29f, type: 3}
       propertyPath: m_Name
       value: MovingCar
+      objectReference: {fileID: 0}
+    - target: {fileID: 6678765230846915460, guid: 541da660bec6d5c4686f385d0f3cc29f, type: 3}
+      propertyPath: moveSpeed
+      value: -5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6678765230846915460, guid: 541da660bec6d5c4686f385d0f3cc29f, type: 3}
+      propertyPath: secondUntilRestart
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

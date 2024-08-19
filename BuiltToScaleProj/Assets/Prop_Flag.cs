@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -9,6 +10,7 @@ public class Prop_Flag : InteractableProp
     private LightModifier light;
     private float startPosY;
     public Transform endPoint;
+    public ToyGuard GuardRef;
 
     public UnityEvent ToggleGate;
 
@@ -47,6 +49,11 @@ public class Prop_Flag : InteractableProp
         {
             //Try to raise the gate but the because the guard is not sleeping it will fail
             Debug.Log("It's day time. Gate failed.");
+            if (GuardRef.gameObject.activeSelf)
+            {
+                GuardRef.StartCoroutine(GuardRef.Angry());
+            }
+            StartCoroutine(MoveFlag(startPosY, endPoint.position.y+1, 1.0f, true));
             return;
         }
         else
@@ -61,10 +68,10 @@ public class Prop_Flag : InteractableProp
     void LowerFlag()
     {
         float end = endPoint.position.y;
-        StartCoroutine(MoveFlag(startPosY, end, 1.0f));
+        StartCoroutine(MoveFlag(startPosY, end, 1.0f, false));
     }
 
-    private IEnumerator MoveFlag(float startY, float endY, float duration)
+    private IEnumerator MoveFlag(float startY, float endY, float duration, bool MoveBack)
     {
         float elapsedTime = 0;
 
@@ -83,8 +90,25 @@ public class Prop_Flag : InteractableProp
             elapsedTime += Time.deltaTime;
             yield return null;
         }
+        Flag.transform.position = new Vector3(startX, endY, startZ);
+
+        if (MoveBack)
+        {
+            elapsedTime = 0;
+            while (elapsedTime < duration)
+            {
+                // Calculate the new y position
+                float newY = Mathf.Lerp(endY, startY, elapsedTime / duration);
+
+                // Set the gate object's position, only changing the y value
+                Flag.transform.position = new Vector3(startX, newY, startZ);
+
+                elapsedTime += Time.deltaTime;
+                yield return null;
+            }
+            Flag.transform.position = new Vector3(startX, startY, startZ);
+        }
 
         // Ensure the object ends exactly at the end y position
-        Flag.transform.position = new Vector3(startX, endY, startZ);
     }
 }

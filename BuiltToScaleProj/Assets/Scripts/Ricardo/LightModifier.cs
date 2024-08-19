@@ -31,6 +31,9 @@ public class LightModifier : MonoBehaviour
     public Material cloudsMat;
     public GameObject cloud;
 
+    public GameObject StandingGuard;
+    public GameObject SleepingGuard;
+
     public Light directionalLight;
 
 
@@ -79,6 +82,8 @@ public class LightModifier : MonoBehaviour
             currentGroundColor = RenderSettings.skybox.GetColor("_GroundColor");
             currentCloudColor = cloudsMat.GetColor("_BaseColor");
             isDayTime = false;
+            SleepingGuard.SetActive(true);
+            StandingGuard.SetActive(false);
         }
     }
 

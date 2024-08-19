@@ -11,12 +11,12 @@ public class InteractableCloud : MonoBehaviour
 
     private void OnMouseDown()
     {
-        if (ClickCounter < 20)
+        if (ClickCounter < 20 && canclick)
         {
             StartCoroutine(Shake());
             ClickCounter++;
         }
-        else if (ClickCounter == 20)
+        else if (ClickCounter == 20 && canclick)
         {
             canclick = false;
             Key.SetActive(true);

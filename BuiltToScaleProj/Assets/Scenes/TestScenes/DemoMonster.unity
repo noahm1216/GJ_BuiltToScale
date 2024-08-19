@@ -6519,6 +6519,63 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1309851311}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &1315555166
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 107e755dd3776d74e8ad20bbe83e59c4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -323.71686
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 107e755dd3776d74e8ad20bbe83e59c4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 107e755dd3776d74e8ad20bbe83e59c4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -160.76631
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 107e755dd3776d74e8ad20bbe83e59c4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 107e755dd3776d74e8ad20bbe83e59c4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 107e755dd3776d74e8ad20bbe83e59c4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 107e755dd3776d74e8ad20bbe83e59c4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 107e755dd3776d74e8ad20bbe83e59c4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 107e755dd3776d74e8ad20bbe83e59c4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 107e755dd3776d74e8ad20bbe83e59c4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 107e755dd3776d74e8ad20bbe83e59c4, type: 3}
+      propertyPath: m_Name
+      value: ToyGuard
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 107e755dd3776d74e8ad20bbe83e59c4, type: 3}
 --- !u!1 &1330952841
 GameObject:
   m_ObjectHideFlags: 0
@@ -7086,7 +7143,7 @@ MonoBehaviour:
   MoonDownPosition: {x: -4, y: 1, z: 7}
   MoonUpPosition: {x: -4, y: 10, z: 7}
   clouds: []
-  cloudsMat: {fileID: 0}
+  cloudsMat: {fileID: 2100000, guid: 3fa9d5f073806824faeda7d00191c013, type: 2}
   cloud: {fileID: 816714873962157075}
 --- !u!1 &1377995538
 GameObject:
@@ -9136,3 +9193,4 @@ SceneRoots:
   - {fileID: 1330952845}
   - {fileID: 645166336}
   - {fileID: 2030605179}
+  - {fileID: 1315555166}

@@ -2,12 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Audio;
+using UnityEngine.UI;
 
 public class MusicManager : MonoBehaviour
 {
     public static MusicManager instance;
 
+    public Slider GlobalVolumeSlider;
+
     public AudioMixer audioMixer;
+    public AudioMixerGroup MX_Global;
     public AudioMixerGroup MX1;
     public AudioMixerGroup MX2;
     public AudioMixerGroup MX_World1;
@@ -69,6 +73,7 @@ public class MusicManager : MonoBehaviour
     {
         if (group.name == "MX1") return "Volume_MX1";
         else if (group.name == "MX2") return "Volume_MX2";
+        else if (group.name == "Master") return "GlobalVolume";
         else if (group.name == "World 1") return "World1_MX";
         else if (group.name == "World 2") return "World2_MX";
         else if (group.name == "World 3") return "World3_MX";
@@ -77,5 +82,11 @@ public class MusicManager : MonoBehaviour
         else if (group.name == "World 6") return "World6_MX";
         else if (group.name == "World 7") return "World7_MX";
         return "null";
+    }
+
+    public void SetGlobalVolume()
+    {
+        Debug.Log("Changing global volume, setting to: " + GlobalVolumeSlider.value);
+        audioMixer.SetFloat("GlobalVolume", GlobalVolumeSlider.value);
     }
 }

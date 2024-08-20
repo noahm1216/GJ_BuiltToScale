@@ -128,6 +128,8 @@ AudioMixerController:
     name: Volume_MX1
   - guid: fa1182d6925d14f28b59829bcc3b72eb
     name: Volume_MX2
+  - guid: 5087db7773a3c4873aa82486d5bf84bd
+    name: GlobalVolume
   - guid: dbb6344c8003042878f26c880f2a32bc
     name: World1_MX
   - guid: d7d7a79aca5cc4a6ca08f784e3fe251e

@@ -4,29 +4,88 @@ using UnityEngine;
 
 public class NarrativeHolder : MonoBehaviour
 {
-    
-    [Space]
-    [Header("LINES FOR GOALS\n_______________")]
-    public int nextGoalId;
-    public List<NarrativeList> gameGoalInfo = new List<NarrativeList>();
+    //----click
+    //Sky
+    //Monster
+    //FlagPole
+    //ToyGuard
+    //Chest
+    //Boombox
+
+    //----Collect
+    //Key
+    //Flag
+    //Monster Toy
+    //Moon
+    //RickRoll
+    //DancingSquad
+
+    //----Interact
+    //Sky (with moon)
+    //Monster (with dragon toy)
+    //FlagPole (with toy flagpole)
+    //Chest (with key)
+    //Boombox (DancingSquad)
+
+    public enum InteractType {Click, Collect, Interaction }
+    public enum InteractionObject { Boombox, Chest, DancingSquad, Flag, FlagPole, Key, Moon, Monster, MonsterToy, ToyGuard, RickRoll, Sky,}
 
     [Space]
     [Header("LINES FOR FEEDBACK\n_______________")]
+    public List<NarrativeList> interactionFeedbackList = new List<NarrativeList>();
+
+
+    public int nextSkyId;
+    public List<NarrativeList> skyInfo = new List<NarrativeList>();
+    [Space]
     public int nextMonsterFeedbackId;
     public List<NarrativeList> monsterFeedbackInfo = new List<NarrativeList>();
     [Space]
     public int nextToyFeedbackId;
     public List<NarrativeList> toyFeedbackInfo = new List<NarrativeList>();
+    [Space]
+    public int nextFlagPoleFeedbackId;
+    public List<NarrativeList> flagPoleFeedbackInfo = new List<NarrativeList>();
+    [Space]
+    public int nextChestFeedbackId;
+    public List<NarrativeList> flagChestFeedbackInfo = new List<NarrativeList>();
+    [Space]
+    public int nextBoomboxFeedbackId;
+    public List<NarrativeList> flagBoomboxFeedbackInfo = new List<NarrativeList>();
 
     private void DidntFindLine(string _nameToPlay)
     {
         Debug.Log($"No Reference to output our messages to: BUT\nMESSAGE TRYING TO PLAY: {_nameToPlay}");
+    }       
+
+
+    public string PickRandomInteractionLine(NarrativeHolder.InteractionObject _objName, NarrativeHolder.InteractType _interactType)
+    {
+        if (interactionFeedbackList.Count == 0)
+            return "Sorry, we forgot to setup the interaction lines";
+
+        // then we make a temporary list of all the lines and pick a random one
+        List<NarrativeList> linesWeCanChooseFrom = new List<NarrativeList>();
+
+        foreach(NarrativeList feedbackLine in interactionFeedbackList)
+        {
+            if (feedbackLine.objInteractName == _objName && feedbackLine.interactionRequired == _interactType)
+                linesWeCanChooseFrom.Add(feedbackLine);
+        }
+
+        if(linesWeCanChooseFrom.Count > 0)
+        {
+            int randomFeedbackId = Random.Range(0, linesWeCanChooseFrom.Count - 1);
+            return linesWeCanChooseFrom[randomFeedbackId].textLine;
+        }
+
+        return $"Sorry, we must have not written a feedback for when we {_interactType} the {_objName}";
     }
 
-    #region PLAYER GOAL LINES
-    public string PlayGoalLine(string _nameToPlay)
+    #region WORLD SKY FEEDBACK LINES
+    public string PlaySkyLine(string _nameToPlay)
     {
-        if (!logInMessages.Instance || gameGoalInfo.Count == 0)
+        if (skyInfo.Count == 0)
         {
             Debug.Log($"No Reference to output our messages to: BUT\nMESSAGE TRYING TO PLAY: {_nameToPlay}");
             return null;
@@ -34,19 +93,18 @@ public class NarrativeHolder : MonoBehaviour
 
         int id = 0;
         if (string.IsNullOrEmpty(_nameToPlay))
-            _nameToPlay = gameGoalInfo[nextGoalId].name;
+            _nameToPlay = skyInfo[nextSkyId].name;
 
 
-        foreach (NarrativeList textLine in gameGoalInfo)
+        foreach (NarrativeList textLine in skyInfo)
         {
             if (textLine.name == _nameToPlay)
             {
-                nextGoalId = id + 1;
-                if (nextGoalId > gameGoalInfo.Count - 1)
-                    nextGoalId = 0;
-                logInMessages.Instance.SendMessage(textLine.textLine); // sends the voice line
-                if (gameGoalInfo[nextGoalId].playAfterPrevious)
-                    PlayGoalLine(gameGoalInfo[nextGoalId].name);
+                nextSkyId = id + 1;
+                if (nextSkyId > skyInfo.Count - 1)
+                    nextSkyId = 0;                
+                if (skyInfo[nextSkyId].playAfterPrevious)
+                    PlaySkyLine(skyInfo[nextSkyId].name);
                 return textLine.textLine;
             }
             id++;
@@ -138,7 +196,11 @@ public class NarrativeHolder : MonoBehaviour
 public class NarrativeList
 {
     [Tooltip("Nickname of the narration type")]
-    public string name;    
+    public string name;
+    [Tooltip("Nickname of the narration object we will click")]
+    public NarrativeHolder.InteractionObject objInteractName;
+    [Tooltip("The Type of Interaction this line will play with")]
+    public NarrativeHolder.InteractType interactionRequired;
     [Tooltip("This is the text that will display on screen")]
     public string textLine;
     [Tooltip("If this box is checked it will playe after the previous line")]

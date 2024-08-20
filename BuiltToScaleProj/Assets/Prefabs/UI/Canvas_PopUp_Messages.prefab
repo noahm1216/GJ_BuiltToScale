@@ -27,16 +27,16 @@ RectTransform:
   m_GameObject: {fileID: 913207684705199190}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1358488799263971481}
   m_Father: {fileID: 5082311411659928042}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.000061035156, y: -3.399994}
-  m_SizeDelta: {x: 0.000061035, y: -6.8}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 399.99994, y: 221.59998}
+  m_SizeDelta: {x: 800.00006, y: 443.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5664259897981359052
 CanvasRenderer:
@@ -53,7 +53,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 913207684705199190}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
@@ -103,8 +103,8 @@ RectTransform:
   m_GameObject: {fileID: 2161543561022954794}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 2.3, y: 2.3, z: 2.3}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 3372650022800007155}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -150,8 +150,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -174,7 +174,7 @@ MonoBehaviour:
   m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -221,8 +221,8 @@ GameObject:
   - component: {fileID: 5082311411659928042}
   - component: {fileID: 5321153157547440333}
   - component: {fileID: 6779262098368009468}
-  - component: {fileID: 5904020864233363217}
   - component: {fileID: 1100149798305347593}
+  - component: {fileID: 2512568339603093532}
   m_Layer: 5
   m_Name: Canvas_PopUp_Messages
   m_TagString: Untagged
@@ -239,7 +239,7 @@ RectTransform:
   m_GameObject: {fileID: 6198318120312837987}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -0.050102122}
-  m_LocalScale: {x: 0.0025660014, y: 0.0025660014, z: 0.0025660014}
+  m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3372650022800007155}
@@ -259,7 +259,7 @@ Canvas:
   m_GameObject: {fileID: 6198318120312837987}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 2
+  m_RenderMode: 1
   m_Camera: {fileID: 0}
   m_PlaneDistance: 1
   m_PixelPerfect: 0
@@ -295,24 +295,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 1
---- !u!114 &5904020864233363217
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6198318120312837987}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_IgnoreReversedGraphics: 1
-  m_BlockingObjects: 0
-  m_BlockingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
+  m_PresetInfoIsWorld: 0
 --- !u!114 &1100149798305347593
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -327,3 +310,79 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   feedbackTextBox: {fileID: 5469263021070224712}
   feedbackBackgroundImage: {fileID: 54443267579946673}
+  ref_NarrativeHolder: {fileID: 0}
+--- !u!114 &2512568339603093532
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6198318120312837987}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c025f75919707a64bb699fb2f7c61690, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactionFeedbackList: []
+  nextSkyId: 0
+  skyInfo: []
+  nextMonsterFeedbackId: 0
+  monsterFeedbackInfo:
+  - name: Monster Click 1
+    objInteractName: 0
+    interactionRequired: 0
+    textLine: "hmm\u2026 it seems like he is looking for someone to dance with. "
+    playAfterPrevious: 0
+  - name: Follow UP Message
+    objInteractName: 0
+    interactionRequired: 0
+    textLine: "Quick, let\u2019s help him find one! "
+    playAfterPrevious: 1
+  - name: Monster Click 2
+    objInteractName: 0
+    interactionRequired: 0
+    textLine: Whats going on in that building over there?
+    playAfterPrevious: 0
+  - name: Follow Up Message
+    objInteractName: 0
+    interactionRequired: 0
+    textLine: Clue ( window sparkling/glowing)
+    playAfterPrevious: 1
+  nextToyFeedbackId: 0
+  toyFeedbackInfo:
+  - name: Toy Click 1
+    objInteractName: 0
+    interactionRequired: 0
+    textLine: A bunny? I hope this monster isn't hungry!
+    playAfterPrevious: 0
+  - name: Follow Up Message
+    objInteractName: 0
+    interactionRequired: 0
+    textLine: This bunny isn't looking to be on todays menu.
+    playAfterPrevious: 1
+  - name: Toy Click 2
+    objInteractName: 0
+    interactionRequired: 0
+    textLine: I don't think they'd get along very well.
+    playAfterPrevious: 0
+  - name: Follow Up Message
+    objInteractName: 0
+    interactionRequired: 0
+    textLine: Seriously. Have you seen the movies?
+    playAfterPrevious: 1
+  - name: Toy Click 3
+    objInteractName: 0
+    interactionRequired: 0
+    textLine: Hmm. Monster and dragon. They'd be a perfect pair!
+    playAfterPrevious: 0
+  - name: Follow Up Message
+    objInteractName: 0
+    interactionRequired: 0
+    textLine: These two are the ideal match!
+    playAfterPrevious: 1
+  nextFlagPoleFeedbackId: 0
+  flagPoleFeedbackInfo: []
+  nextChestFeedbackId: 0
+  flagChestFeedbackInfo: []
+  nextBoomboxFeedbackId: 0
+  flagBoomboxFeedbackInfo: []

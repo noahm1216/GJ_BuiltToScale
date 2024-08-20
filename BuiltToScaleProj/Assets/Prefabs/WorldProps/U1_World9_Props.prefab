@@ -1224,7 +1224,7 @@ Transform:
   m_GameObject: {fileID: 6519170231103894597}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0.075106286, w: 0.9971756}
-  m_LocalPosition: {x: -3.8099, y: 2.298, z: 9.83}
+  m_LocalPosition: {x: -3.71, y: 2.6, z: 9.83}
   m_LocalScale: {x: 0.82039416, y: 0.82039416, z: 0.82039416}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1698,17 +1698,19 @@ MonoBehaviour:
 
     Jabria Taylor (woo! 1st Jam)
 
-    Nhi Nguyem
+    Millie (Moo)
+    Harris
 
-    Ngan
-    Nguyen (woo! 1st Jam)
+    Nhi Nguyen
 
-    Nancy Nguyen (woo! 1st Jam)
+    Ngan Nguyen (woo! 1st Jam)
+
+    Nancy Nguyen (woo!
+    1st Jam)
 
     Noah Maestre
 
-    Ricardo
-    Aviles
+    Ricardo Aviles
 
     Stephanie Glover'
   m_isRightToLeft: 0
@@ -1737,7 +1739,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 63.9
+  m_fontSize: 59.3
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1957,7 +1959,7 @@ Transform:
   m_GameObject: {fileID: 8645434974030265849}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.052099545, w: 0.99864197}
-  m_LocalPosition: {x: -5.8591, y: 0.62086, z: 9.83}
+  m_LocalPosition: {x: -5.87, y: 0.59, z: 9.83}
   m_LocalScale: {x: 0.8338808, y: 0.8338808, z: 0.8338808}
   m_ConstrainProportionsScale: 0
   m_Children: []

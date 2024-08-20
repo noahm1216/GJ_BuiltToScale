@@ -5,12 +5,15 @@ using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Audio;
+using UnityEngine.Playables;
 using UnityEngine.UI;
 using UnityEngine.Video;
 
 public class DimensionManager : MonoBehaviour
 {
     public static DimensionManager instance;
+
+    public PlayableDirector IntroCutscene;
 
     public Dimension CurrentDimension;
 
@@ -33,10 +36,14 @@ public class DimensionManager : MonoBehaviour
         {
             Destroy(this);
         }
+
+        
     }
 
     void Start()
     {
+        PlayableAsset cutsceneAsset = IntroCutscene.playableAsset;
+        StartCoroutine(ClickDisable(cutsceneAsset.duration));
         foreach (Camera c in FindObjectsOfType(typeof(Camera)))
         {
             //c.enabled = false;
@@ -234,6 +241,14 @@ public class DimensionManager : MonoBehaviour
         toDimension.MainCamera.GetComponent<AudioListener>().enabled = true;
 
         FindObjectOfType(typeof(VideoPlayer)).GetComponent<VideoPlayer>().SetDirectAudioVolume(0, 0);
+        CanTransition = true;
+    }
+
+    IEnumerator ClickDisable(double duration)
+    {
+        float dur = (float)duration;
+        CanTransition = false;
+        yield return new WaitForSeconds(dur);
         CanTransition = true;
     }
 }

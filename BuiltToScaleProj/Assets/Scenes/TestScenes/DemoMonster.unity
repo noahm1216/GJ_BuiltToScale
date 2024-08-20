@@ -7370,6 +7370,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c52dc4cb48e5cea439dc6194c30e4e73, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  IntroCutscene: {fileID: 1672364135}
   CurrentDimension: {fileID: 744325487}
   AudioMixer: {fileID: 24100000, guid: f9d34b0b65e664942ab86f3b271abc1c, type: 2}
   ZoomInSequenceDuration: 2
@@ -11966,6 +11967,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 520efa4203ff017458dc1cdb663c2aef, type: 3}
+--- !u!320 &1672364135 stripped
+PlayableDirector:
+  m_CorrespondingSourceObject: {fileID: 1715187898030926842, guid: 520efa4203ff017458dc1cdb663c2aef, type: 3}
+  m_PrefabInstance: {fileID: 1672364134}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1693851302 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8661889884325614262, guid: 37fd3aefca694364da7b450c91831fe7, type: 3}

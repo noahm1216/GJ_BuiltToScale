@@ -12,6 +12,8 @@ public class BoomBox : InteractableProp
     public AudioSource World1Audio;
     public AudioClip RickRollMusic;
 
+    public Animator monsterAnimator;
+
     public override bool RequestInteraction(int ID)
     {
         if (ID == 4)
@@ -24,6 +26,7 @@ public class BoomBox : InteractableProp
         {
             World1Audio.clip = RickRollMusic;
             World1Audio.Play();
+            monsterAnimator.SetTrigger("RickRoll_MX_on");
         }
 
         if (ID == 0)

@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.26261944, g: 0.53811955, b: 0.9889415, a: 1}
+  m_IndirectSpecularColor: {r: 0.2626193, g: 0.5381189, b: 0.98893964, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -8880,6 +8880,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: d7977c7ca35a86a4595dfaf62551ea61, type: 3}
   m_PrefabInstance: {fileID: 1186379845}
   m_PrefabAsset: {fileID: 0}
+--- !u!95 &1199119536 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 4592808915369052645, guid: 8dade64c7678657489a2e9a15eb38bb8, type: 3}
+  m_PrefabInstance: {fileID: 456989172352437103}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1206032143 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5727295448048236207, guid: 8dade64c7678657489a2e9a15eb38bb8, type: 3}
@@ -13286,6 +13291,7 @@ MonoBehaviour:
   GameCompleteCutsceneRemote: {fileID: 1402696666}
   World1Audio: {fileID: 744325488}
   RickRollMusic: {fileID: 8300000, guid: f4b16fe04f5a21041b012d177427deb5, type: 3}
+  monsterAnimator: {fileID: 1199119536}
 --- !u!1 &1718121089
 GameObject:
   m_ObjectHideFlags: 0

@@ -10881,74 +10881,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 54443267579946673, guid: 0151b98fa38c9a14aab1b71792b67611, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1358488799263971481, guid: 0151b98fa38c9a14aab1b71792b67611, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 2.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1358488799263971481, guid: 0151b98fa38c9a14aab1b71792b67611, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 2.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1358488799263971481, guid: 0151b98fa38c9a14aab1b71792b67611, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 2.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1358488799263971481, guid: 0151b98fa38c9a14aab1b71792b67611, type: 3}
-      propertyPath: m_ConstrainProportionsScale
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3372650022800007155, guid: 0151b98fa38c9a14aab1b71792b67611, type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3372650022800007155, guid: 0151b98fa38c9a14aab1b71792b67611, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3372650022800007155, guid: 0151b98fa38c9a14aab1b71792b67611, type: 3}
-      propertyPath: m_AnchorMin.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3372650022800007155, guid: 0151b98fa38c9a14aab1b71792b67611, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3372650022800007155, guid: 0151b98fa38c9a14aab1b71792b67611, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 800.00006
-      objectReference: {fileID: 0}
-    - target: {fileID: 3372650022800007155, guid: 0151b98fa38c9a14aab1b71792b67611, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 443.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3372650022800007155, guid: 0151b98fa38c9a14aab1b71792b67611, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3372650022800007155, guid: 0151b98fa38c9a14aab1b71792b67611, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3372650022800007155, guid: 0151b98fa38c9a14aab1b71792b67611, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3372650022800007155, guid: 0151b98fa38c9a14aab1b71792b67611, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 399.99994
-      objectReference: {fileID: 0}
-    - target: {fileID: 3372650022800007155, guid: 0151b98fa38c9a14aab1b71792b67611, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 221.59998
-      objectReference: {fileID: 0}
-    - target: {fileID: 3372650022800007155, guid: 0151b98fa38c9a14aab1b71792b67611, type: 3}
-      propertyPath: m_ConstrainProportionsScale
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 5082311411659928042, guid: 0151b98fa38c9a14aab1b71792b67611, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -10979,18 +10911,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5082311411659928042, guid: 0151b98fa38c9a14aab1b71792b67611, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5082311411659928042, guid: 0151b98fa38c9a14aab1b71792b67611, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5082311411659928042, guid: 0151b98fa38c9a14aab1b71792b67611, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5082311411659928042, guid: 0151b98fa38c9a14aab1b71792b67611, type: 3}
-      propertyPath: m_LocalScale.z
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5082311411659928042, guid: 0151b98fa38c9a14aab1b71792b67611, type: 3}
@@ -11041,108 +10961,15 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5321153157547440333, guid: 0151b98fa38c9a14aab1b71792b67611, type: 3}
-      propertyPath: m_RenderMode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5469263021070224712, guid: 0151b98fa38c9a14aab1b71792b67611, type: 3}
-      propertyPath: m_fontStyle
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5469263021070224712, guid: 0151b98fa38c9a14aab1b71792b67611, type: 3}
-      propertyPath: m_fontColor.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5469263021070224712, guid: 0151b98fa38c9a14aab1b71792b67611, type: 3}
-      propertyPath: m_fontColor.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5469263021070224712, guid: 0151b98fa38c9a14aab1b71792b67611, type: 3}
-      propertyPath: m_fontColor.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5469263021070224712, guid: 0151b98fa38c9a14aab1b71792b67611, type: 3}
-      propertyPath: m_fontColor32.rgba
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 5469263021070224712, guid: 0151b98fa38c9a14aab1b71792b67611, type: 3}
-      propertyPath: m_hasFontAssetChanged
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5904020864233363217, guid: 0151b98fa38c9a14aab1b71792b67611, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 6198318120312837987, guid: 0151b98fa38c9a14aab1b71792b67611, type: 3}
       propertyPath: m_Name
       value: Canvas_PopUp_Messages
       objectReference: {fileID: 0}
-    - target: {fileID: 6779262098368009468, guid: 0151b98fa38c9a14aab1b71792b67611, type: 3}
-      propertyPath: m_PresetInfoIsWorld
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 5904020864233363217, guid: 0151b98fa38c9a14aab1b71792b67611, type: 3}
+    m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 6198318120312837987, guid: 0151b98fa38c9a14aab1b71792b67611, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1441712031}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0151b98fa38c9a14aab1b71792b67611, type: 3}
---- !u!1 &1441712030 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6198318120312837987, guid: 0151b98fa38c9a14aab1b71792b67611, type: 3}
-  m_PrefabInstance: {fileID: 1441712029}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1441712031
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1441712030}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c025f75919707a64bb699fb2f7c61690, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nextGoalId: 0
-  gameGoalInfo: []
-  nextMonsterFeedbackId: 0
-  monsterFeedbackInfo:
-  - name: Monster Click 1
-    textLine: "hmm\u2026 it seems like he is looking for someone to dance with. "
-    playAfterPrevious: 0
-  - name: Follow UP Message
-    textLine: "Quick, let\u2019s help him find one! "
-    playAfterPrevious: 1
-  - name: Monster Click 2
-    textLine: Whats going on in that building over there?
-    playAfterPrevious: 0
-  - name: Follow Up Message
-    textLine: Clue ( window sparkling/glowing)
-    playAfterPrevious: 1
-  nextToyFeedbackId: 0
-  toyFeedbackInfo:
-  - name: Toy Click 1
-    textLine: A bunny? I hope this monster isn't hungry!
-    playAfterPrevious: 0
-  - name: Follow Up Message
-    textLine: This bunny isn't looking to be on todays menu.
-    playAfterPrevious: 1
-  - name: Toy Click 2
-    textLine: I don't think they'd get along very well.
-    playAfterPrevious: 0
-  - name: Follow Up Message
-    textLine: Seriously. Have you seen the movies?
-    playAfterPrevious: 1
-  - name: Toy Click 3
-    textLine: Hmm. Monster and dragon. They'd be a perfect pair!
-    playAfterPrevious: 0
-  - name: Follow Up Message
-    textLine: These two are the ideal match!
-    playAfterPrevious: 1
 --- !u!1 &1450650557
 GameObject:
   m_ObjectHideFlags: 0

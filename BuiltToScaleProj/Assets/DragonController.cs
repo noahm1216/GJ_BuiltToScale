@@ -12,9 +12,14 @@ public class DragonController : MonoBehaviour
     private Rigidbody rb;
     private Vector3 movement;
 
+    public ParticleSystem fireBreath;
+    private Quaternion from = Quaternion.Euler(0f, 0f, 0f);
+    private Quaternion to = Quaternion.Euler(0f, 180f, 0f);
+
     void Start()
     {
         rb = GetComponent<Rigidbody>();
+        fireBreath.Stop();
     }
 
     void Update()
@@ -25,10 +30,31 @@ public class DragonController : MonoBehaviour
 
         // Check if the character is grounded
 
+        // Handle right input input
+        if (Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow))
+        {
+            transform.rotation = to;
+        }
+        // Handle left input input
+        if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow))
+        {
+            transform.rotation = from;
+        }
+
         // Handle jump input
         if (Input.GetKeyDown(KeyCode.W))
         {
             Jump();
+        }
+
+        // Handle space input
+        if (Input.GetKey(KeyCode.Space))
+        {
+            fireBreath.Play();
+        }
+        else
+        {
+            fireBreath.Stop();
         }
     }
 

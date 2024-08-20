@@ -323,66 +323,137 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c025f75919707a64bb699fb2f7c61690, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interactionFeedbackList: []
-  nextSkyId: 0
-  skyInfo: []
-  nextMonsterFeedbackId: 0
-  monsterFeedbackInfo:
+  interactionFeedbackList:
   - name: Monster Click 1
-    objInteractName: 0
+    objInteractName: 7
     interactionRequired: 0
-    textLine: "hmm\u2026 it seems like he is looking for someone to dance with. "
-    playAfterPrevious: 0
-  - name: Follow UP Message
-    objInteractName: 0
-    interactionRequired: 0
-    textLine: "Quick, let\u2019s help him find one! "
-    playAfterPrevious: 1
+    textLine: "hmm\u2026 it seems like he is looking for someone to dance with. \\n\\nQuick,
+      let\u2019s help him find one! "
   - name: Monster Click 2
-    objInteractName: 0
+    objInteractName: 7
     interactionRequired: 0
-    textLine: Whats going on in that building over there?
-    playAfterPrevious: 0
-  - name: Follow Up Message
-    objInteractName: 0
+    textLine: Whats going on in that building over there? \n\n The Window Keeps Catching
+      My Eye
+  - name: Monster Click 3
+    objInteractName: 7
     interactionRequired: 0
-    textLine: Clue ( window sparkling/glowing)
-    playAfterPrevious: 1
-  nextToyFeedbackId: 0
-  toyFeedbackInfo:
-  - name: Toy Click 1
-    objInteractName: 0
+    textLine: Mr Monster can't stop dancing. Our scaling powers might help us stop
+      the music!
+  - name: Monster Click 4
+    objInteractName: 7
     interactionRequired: 0
-    textLine: A bunny? I hope this monster isn't hungry!
-    playAfterPrevious: 0
-  - name: Follow Up Message
-    objInteractName: 0
-    interactionRequired: 0
-    textLine: This bunny isn't looking to be on todays menu.
-    playAfterPrevious: 1
-  - name: Toy Click 2
-    objInteractName: 0
-    interactionRequired: 0
-    textLine: I don't think they'd get along very well.
-    playAfterPrevious: 0
-  - name: Follow Up Message
-    objInteractName: 0
-    interactionRequired: 0
-    textLine: Seriously. Have you seen the movies?
-    playAfterPrevious: 1
-  - name: Toy Click 3
-    objInteractName: 0
+    textLine: "It\u2019s the Party Monster, and he demands to have a good time, right
+      now!"
+  - name: Dragon Click 1
+    objInteractName: 8
     interactionRequired: 0
     textLine: Hmm. Monster and dragon. They'd be a perfect pair!
-    playAfterPrevious: 0
-  - name: Follow Up Message
+  - name: Toy Guard Click 1
+    objInteractName: 8
+    interactionRequired: 0
+    textLine: The Guard is still awake.
+  - name: Toy Guard Click 2
+    objInteractName: 8
+    interactionRequired: 0
+    textLine: My scaling powers could put this guy to sleep
+  - name: Toy Guard Click 3
+    objInteractName: 8
+    interactionRequired: 0
+    textLine: A good Soldier stays at his post... during his shift at least
+  - name: Toy Guard Click 4
+    objInteractName: 9
+    interactionRequired: 0
+    textLine: I need to get by this guy
+  - name: Sky Click 1
+    objInteractName: 11
+    interactionRequired: 0
+    textLine: Hello World!
+  - name: Sky Click 2
+    objInteractName: 11
+    interactionRequired: 0
+    textLine: I guess it's always a good time to dance
+  - name: Sky Click 3
+    objInteractName: 11
+    interactionRequired: 0
+    textLine: The city that never sleeps. Music so loud that it attracts a lonely
+      monster with a great desire for dancing in its heart
+  - name: FlagPole Click 1
+    objInteractName: 4
+    interactionRequired: 0
+    textLine: The Gate onle opens when the flag is up
+  - name: FlagPole Click 2
+    objInteractName: 4
+    interactionRequired: 0
+    textLine: I need to find the castle flag to get through
+  - name: Chest Click 1
+    objInteractName: 1
+    interactionRequired: 0
+    textLine: There is something inside, but what?
+  - name: Chest Click 2
+    objInteractName: 1
+    interactionRequired: 0
+    textLine: I could open it, but I need a key
+  - name: Chest Click 3
+    objInteractName: 1
+    interactionRequired: 0
+    textLine: I'm not sure why but this makes me think of a cloud
+  - name: Boombox Click 1
     objInteractName: 0
     interactionRequired: 0
-    textLine: These two are the ideal match!
-    playAfterPrevious: 1
-  nextFlagPoleFeedbackId: 0
-  flagPoleFeedbackInfo: []
-  nextChestFeedbackId: 0
-  flagChestFeedbackInfo: []
-  nextBoomboxFeedbackId: 0
-  flagBoomboxFeedbackInfo: []
+    textLine: The Stage is BUMPIN'!!
+  - name: Boombox Click 2
+    objInteractName: 0
+    interactionRequired: 0
+    textLine: A stage needs dancers
+  - name: Boombox Click 1
+    objInteractName: 0
+    interactionRequired: 0
+    textLine: These Jams are what hypnotized the monster
+  - name: Key Collect 1
+    objInteractName: 5
+    interactionRequired: 1
+    textLine: Wow, a key! I can probably unlock something
+  - name: Flag Collect 1
+    objInteractName: 3
+    interactionRequired: 1
+    textLine: Sorry Mario, we'll need this for our castle
+  - name: Monster Toy Collect 1
+    objInteractName: 8
+    interactionRequired: 1
+    textLine: We Got What We Need For The Monster!
+  - name: Moon Collect 1
+    objInteractName: 6
+    interactionRequired: 1
+    textLine: Wow, with the moon... we could change the world!!!!
+  - name: RickRoll Collect 1
+    objInteractName: 10
+    interactionRequired: 1
+    textLine: What the HECK? Nobody wants to listen to this
+  - name: Dancing Squad Collect 1
+    objInteractName: 2
+    interactionRequired: 1
+    textLine: So cute! I've been looking for some stage dancers
+  - name: Sky Interaction 1
+    objInteractName: 11
+    interactionRequired: 2
+    textLine: Night time! Anyone working should be asleep now
+  - name: Monster Interaction 1
+    objInteractName: 7
+    interactionRequired: 2
+    textLine: TIME TO STOP THE DANCING!!!
+  - name: FlagPole Interaction 1
+    objInteractName: 4
+    interactionRequired: 2
+    textLine: The Gate is up!!! Let's grab the Dragon Toy
+  - name: Chest Interaction 1
+    objInteractName: 1
+    interactionRequired: 2
+    textLine: '*Click* That Worked! What Treasure awaits?'
+  - name: Boombox Interaction 1
+    objInteractName: 0
+    interactionRequired: 2
+    textLine: Time To Dance Everyone!!!
+  - name: Boombox Interaction 2
+    objInteractName: 0
+    interactionRequired: 2
+    textLine: Oh no, even more monsters dancing now!!

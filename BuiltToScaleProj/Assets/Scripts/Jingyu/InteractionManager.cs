@@ -95,10 +95,15 @@ public class InteractionManager : MonoBehaviour
             {
                 bool something = (closestHit.GetComponent<InteractableProp>().RequestInteraction(ItemToDrag.ID));
                
-                if(something && logInMessages.Instance)
+                if (something)
+                {
+                    PopUpFeedback.Instance.RequestMessage(Message.Interaction, closestHit.gameObject.name);
+                }
+
+                /*if(something && logInMessages.Instance)
                     logInMessages.Instance.SendMessage($"Item:{ItemToDrag.ID} INTERACTED WITH - {closestHit.transform.name}");
                 else if(!something && logInMessages.Instance)
-                    logInMessages.Instance.SendMessage($"Item:{ItemToDrag.ID} - {closestHit.transform.name}");
+                    logInMessages.Instance.SendMessage($"Item:{ItemToDrag.ID} - {closestHit.transform.name}");*/
 
                 return something;
             }

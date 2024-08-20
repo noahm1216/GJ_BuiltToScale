@@ -12,6 +12,7 @@ public class ToyGuard : MonoBehaviour
     private void OnMouseDown()
     {
         BeAngry();
+        PopUpFeedback.Instance.RequestMessage(Message.Click, "ToyGuard");
     }
 
     public void BeAngry()

@@ -20,4 +20,9 @@ public class InteractableProp : MonoBehaviour
         CursorManager.instance.SwitchCursor(0);
     }
 
+    private void OnMouseDown()
+    {
+        PopUpFeedback.Instance.RequestMessage(Message.Click, gameObject.name);
+    }
+
 }

@@ -101,7 +101,7 @@ public class InteractionManager : MonoBehaviour
                 }
                 else
                 {
-                    PopUpFeedback.Instance.RequestMessage(Message.FailedInteraction, closestHit.gameObject.name);
+                    //PopUpFeedback.Instance.RequestMessage(Message.FailedInteraction, closestHit.gameObject.name);
                 }
 
                 /*if(something && logInMessages.Instance)

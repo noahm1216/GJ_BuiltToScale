@@ -17,6 +17,8 @@ public class DimensionManager : MonoBehaviour
 
     public Dimension CurrentDimension;
 
+    public Button ZoomOutButton;
+
     //public CinemachineBrain CameraBrain;
 
     public AudioMixer AudioMixer;
@@ -69,6 +71,12 @@ public class DimensionManager : MonoBehaviour
         }
     }
 
+
+    public void RequestZoomOutButton()
+    {
+        RequestZoomOut(CurrentDimension);
+    }
+
     public void RequestZoomOut(Dimension fromDimension)
     {
         if (CanTransition && fromDimension.ZoomOutDimension != null)
@@ -81,7 +89,7 @@ public class DimensionManager : MonoBehaviour
     {
         CanTransition = false;
         Debug.Log("Zoom In");
-
+        ZoomOutButton.interactable = true;
 
         Vector3 OriginalPosition = fromDimension.MainCamera.transform.position;
         Vector3 TargetPosition = toDimension.TransitionCamera.transform.position;
@@ -196,6 +204,10 @@ public class DimensionManager : MonoBehaviour
         CanTransition = false;
         Debug.Log("Zoom Out");
         CurrentDimension = toDimension;
+        if (toDimension.ZoomOutDimension == null)
+        {
+            ZoomOutButton.interactable = false;
+        }
 
 
         Vector3 OriginalPosition = fromDimension.TransitionCamera.transform.position;

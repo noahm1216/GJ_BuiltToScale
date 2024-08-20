@@ -47,6 +47,11 @@ public class PopUpFeedback : MonoBehaviour
             imageStartColor = feedbackBackgroundImage.color;        
     }
 
+    private void OnDisable()
+    {
+        feedbackTextBox.color = new Color(feedbackTextBox.color.r, feedbackTextBox.color.g, feedbackTextBox.color.b, 0);
+    }
+
     public void RequestMessage(Message messageType, string name) // Call this and assign the text. it will handle the rest
     {
         string StringToDisplay = "Hi Hi! from" + name;
@@ -142,7 +147,7 @@ public class PopUpFeedback : MonoBehaviour
                     break;
             }
         }
-        else if (messageType == Message.FailedInteraction)
+        /*else if (messageType == Message.FailedInteraction)
         {
             //Sky (with moon)
             //Monster (with dragon toy)
@@ -169,7 +174,7 @@ public class PopUpFeedback : MonoBehaviour
                 default:
                     break;
             }
-        }
+        }*/
 
         if (feedbackTextBox)
             feedbackTextBox.text = StringToDisplay;
@@ -194,7 +199,7 @@ public class PopUpFeedback : MonoBehaviour
 
     public IEnumerator FadeUI()
     {
-        yield return new WaitForSeconds(5);
+        yield return new WaitForSeconds(2);
         Vector2 OriginalPos = feedbackTextBox.GetComponent<RectTransform>().anchoredPosition;
         for (float i = 1; i >= 0; i-=0.1f)
         {

@@ -27,6 +27,7 @@ public class DragonController : MonoBehaviour
         // Handle movement input
         float horizontalInput = Input.GetAxis("Horizontal");
         movement = new Vector3(horizontalInput, 0, 0).normalized * moveSpeed;
+        GetComponent<Rigidbody>().velocity = new Vector3 (movement.x, GetComponent<Rigidbody>().velocity.y, 0);
 
         // Check if the character is grounded
 
@@ -60,9 +61,7 @@ public class DragonController : MonoBehaviour
 
     void FixedUpdate()
     {
-        // Move the character
-        Vector3 newPosition = rb.position + movement * Time.fixedDeltaTime;
-        rb.MovePosition(newPosition);
+
     }
 
     private void Jump()

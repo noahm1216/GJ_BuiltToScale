@@ -310,7 +310,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   feedbackTextBox: {fileID: 5469263021070224712}
   feedbackBackgroundImage: {fileID: 54443267579946673}
-  ref_NarrativeHolder: {fileID: 0}
+  ref_NarrativeHolder: {fileID: 2512568339603093532}
 --- !u!114 &2512568339603093532
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -349,15 +349,15 @@ MonoBehaviour:
     interactionRequired: 0
     textLine: Hmm. Monster and dragon. They'd be a perfect pair!
   - name: Toy Guard Click 1
-    objInteractName: 8
+    objInteractName: 9
     interactionRequired: 0
     textLine: The Guard is still awake.
   - name: Toy Guard Click 2
-    objInteractName: 8
+    objInteractName: 9
     interactionRequired: 0
     textLine: My scaling powers could put this guy to sleep
   - name: Toy Guard Click 3
-    objInteractName: 8
+    objInteractName: 9
     interactionRequired: 0
     textLine: A good Soldier stays at his post... during his shift at least
   - name: Toy Guard Click 4

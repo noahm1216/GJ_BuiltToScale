@@ -327,12 +327,12 @@ MonoBehaviour:
   - name: Monster Click 1
     objInteractName: 7
     interactionRequired: 0
-    textLine: "hmm\u2026 it seems like he is looking for someone to dance with. \\n\\nQuick,
+    textLine: "hmm\u2026 it seems like he is looking for someone to dance with. Quick,
       let\u2019s help him find one! "
   - name: Monster Click 2
     objInteractName: 7
     interactionRequired: 0
-    textLine: Whats going on in that building over there? \n\n The Window Keeps Catching
+    textLine: Whats going on in that building over there? The Window Keeps Catching
       My Eye
   - name: Monster Click 3
     objInteractName: 7

@@ -39,7 +39,10 @@ public class PopUpFeedback : MonoBehaviour
     void Start()
     {
         if (feedbackTextBox)
+        {
             textStartColor = feedbackTextBox.color;
+            feedbackTextBox.text = "";
+        }
         if (feedbackBackgroundImage)
             imageStartColor = feedbackBackgroundImage.color;        
     }
@@ -191,7 +194,7 @@ public class PopUpFeedback : MonoBehaviour
 
     public IEnumerator FadeUI()
     {
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(5);
         Vector2 OriginalPos = feedbackTextBox.GetComponent<RectTransform>().anchoredPosition;
         for (float i = 1; i >= 0; i-=0.1f)
         {

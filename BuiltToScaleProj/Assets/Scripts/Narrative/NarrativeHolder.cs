@@ -24,12 +24,12 @@ public class NarrativeHolder : MonoBehaviour
     }
 
     #region PLAYER GOAL LINES
-    public void PlayGoalLine(string _nameToPlay)
+    public string PlayGoalLine(string _nameToPlay)
     {
         if (!logInMessages.Instance || gameGoalInfo.Count == 0)
         {
             Debug.Log($"No Reference to output our messages to: BUT\nMESSAGE TRYING TO PLAY: {_nameToPlay}");
-            return;
+            return null;
         }        
 
         int id = 0;
@@ -47,21 +47,22 @@ public class NarrativeHolder : MonoBehaviour
                 logInMessages.Instance.SendMessage(textLine.textLine); // sends the voice line
                 if (gameGoalInfo[nextGoalId].playAfterPrevious)
                     PlayGoalLine(gameGoalInfo[nextGoalId].name);
-                return;
+                return textLine.textLine;
             }
             id++;
         }
         DidntFindLine(_nameToPlay);
+        return null;
     }
     #endregion player goal lines
 
     #region MONSTER FEEDBACK LINES
-    public void PlayMonsterFeedBackLines(string _nameToPlay)
+    public string PlayMonsterFeedBackLines(string _nameToPlay)
     {
         if (!logInMessages.Instance || monsterFeedbackInfo.Count == 0)
         {
             Debug.Log($"No Reference to output our messages to: BUT\nMESSAGE TRYING TO PLAY: {_nameToPlay}");
-            return;
+            return null;
         }
         
 
@@ -80,21 +81,22 @@ public class NarrativeHolder : MonoBehaviour
                 logInMessages.Instance.SendMessage(textLine.textLine); // sends the voice line
                 if (monsterFeedbackInfo[nextMonsterFeedbackId].playAfterPrevious)
                     PlayMonsterFeedBackLines(monsterFeedbackInfo[nextMonsterFeedbackId].name);
-                return;
+                return textLine.textLine;
             }
             id++;
         }
         DidntFindLine(_nameToPlay);
+        return null;
     }
     #endregion monster feedback lines
     
     #region TOY FEEDBACK LINES
-    public void PlayToyFeedBackLines(string _nameToPlay)
+    public string PlayToyFeedBackLines(string _nameToPlay)
     {
         if (!logInMessages.Instance || toyFeedbackInfo.Count == 0)
         {
             Debug.Log($"No Reference to output our messages to: BUT\nMESSAGE TRYING TO PLAY: {_nameToPlay}");
-            return;
+            return null;
         }
 
 
@@ -113,11 +115,12 @@ public class NarrativeHolder : MonoBehaviour
                 logInMessages.Instance.SendMessage(textLine.textLine); // sends the voice line
                 if (toyFeedbackInfo[nextToyFeedbackId].playAfterPrevious)
                     PlayMonsterFeedBackLines(toyFeedbackInfo[nextToyFeedbackId].name);
-                return;
+                return textLine.textLine;
             }
             id++;
         }
         DidntFindLine(_nameToPlay);
+        return null;
     }
     #endregion toy feedback lines
 

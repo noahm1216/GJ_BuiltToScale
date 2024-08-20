@@ -178,8 +178,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lerpScale: 1
   scLeVa_a: 1
-  scLeVa_b: 0.8
-  scLeVa_tOffset: 0.8
+  scLeVa_b: 1.15
+  scLeVa_tOffset: 1.5
 --- !u!1 &8874950670934770328
 GameObject:
   m_ObjectHideFlags: 0

@@ -9,4 +9,15 @@ public class InteractableProp : MonoBehaviour
     {
         return false;
     }
+
+    private void OnMouseEnter()
+    {
+        CursorManager.instance.SwitchCursor(1);
+    }
+
+    private void OnMouseExit()
+    {
+        CursorManager.instance.SwitchCursor(0);
+    }
+
 }

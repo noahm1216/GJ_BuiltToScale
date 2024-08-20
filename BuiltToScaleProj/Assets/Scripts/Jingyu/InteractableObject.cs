@@ -24,7 +24,18 @@ public class InteractableObject : MonoBehaviour
             e.Invoke();
         }
 
+        CursorManager.instance.SwitchCursor(0);
         if (logInMessages.Instance)
             logInMessages.Instance.SendMessage($"You've Just Picked Up {_name}. You find yourself wondering what it's meant to combine with.");
+    }
+
+    private void OnMouseEnter()
+    {
+        CursorManager.instance.SwitchCursor(1);
+    }
+
+    private void OnMouseExit()
+    {
+        CursorManager.instance.SwitchCursor(0);
     }
 }

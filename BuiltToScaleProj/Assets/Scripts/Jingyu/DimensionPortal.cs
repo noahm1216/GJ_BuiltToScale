@@ -12,4 +12,14 @@ public class DimensionPortal : MonoBehaviour
         DimensionManager.instance.RequestZoomIn(DimensionManager.instance.CurrentDimension, PointsToDimension);
     }
 
+    private void OnMouseEnter()
+    {
+        CursorManager.instance.SwitchCursor(1);
+    }
+
+    private void OnMouseExit()
+    {
+        CursorManager.instance.SwitchCursor(0);
+    }
+
 }

@@ -14,6 +14,8 @@ public class BoomBox : InteractableProp
 
     public Animator monsterAnimator;
 
+    public PlayableDirector endCinematic;
+
     public override bool RequestInteraction(int ID)
     {
         if (ID == 4)
@@ -31,11 +33,23 @@ public class BoomBox : InteractableProp
 
         if (ID == 0)
         {
-            GameCompleteCutscene.SetActive(true);
+            
+           StartCoroutine(ActivateEndCutscene());
+            
             //GameCompleteCutsceneRemote.Play();
             return true;
         }
         return false;
     }
 
+
+    IEnumerator ActivateEndCutscene()
+    {
+        PlayableAsset playableAsset = endCinematic.playableAsset;
+        double duration = playableAsset.duration;
+        float dur = (float)duration;
+        GameCompleteCutscene.SetActive(true);
+        yield return new WaitForSeconds(dur - 1);
+        DimensionManager.instance.RequestZoomOut(DimensionManager.instance.CurrentDimension);
+    }
 }

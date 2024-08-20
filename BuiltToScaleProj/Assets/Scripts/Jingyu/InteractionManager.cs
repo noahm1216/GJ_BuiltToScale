@@ -99,6 +99,10 @@ public class InteractionManager : MonoBehaviour
                 {
                     PopUpFeedback.Instance.RequestMessage(Message.Interaction, closestHit.gameObject.name);
                 }
+                else
+                {
+                    PopUpFeedback.Instance.RequestMessage(Message.FailedInteraction, closestHit.gameObject.name);
+                }
 
                 /*if(something && logInMessages.Instance)
                     logInMessages.Instance.SendMessage($"Item:{ItemToDrag.ID} INTERACTED WITH - {closestHit.transform.name}");

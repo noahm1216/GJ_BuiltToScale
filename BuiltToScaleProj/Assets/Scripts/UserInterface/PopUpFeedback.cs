@@ -7,7 +7,8 @@ using TMPro;
 public enum Message{
     Click,
     Collect,
-    Interaction
+    Interaction,
+    FailedInteraction
 }
 
 
@@ -133,6 +134,34 @@ public class PopUpFeedback : MonoBehaviour
                     break;
                 case "Boombox":
                     StringToDisplay = ref_NarrativeHolder.PickRandomInteractionLine(NarrativeHolder.InteractionObject.Boombox, NarrativeHolder.InteractType.Interaction);
+                    break;
+                default:
+                    break;
+            }
+        }
+        else if (messageType == Message.FailedInteraction)
+        {
+            //Sky (with moon)
+            //Monster (with dragon toy)
+            //FlagPole (with toy flagpole)
+            //Chest (with key)
+            //Boombox (DancingSquad)
+            switch (name)
+            {
+                case "Sky":
+                    StringToDisplay = $"For some reason, trying to combine {name} with the Sky doesn't work. I bet I could try something else though";
+                    break;
+                case "Monster":
+                    StringToDisplay = $"For some reason, trying to combine {name} with the Monster doesn't work. I bet I could try something else though";
+                    break;
+                case "FlagPole":
+                    StringToDisplay = $"For some reason, trying to combine {name} with the FlagPole doesn't work. I bet I could try something else though";
+                    break;
+                case "Chest":
+                    StringToDisplay = $"For some reason, trying to combine {name} with the Chest doesn't work. I bet I could try something else though";
+                    break;
+                case "Boombox":
+                    StringToDisplay = $"For some reason, trying to combine {name} with the Boombox doesn't work. I bet I could try something else though";
                     break;
                 default:
                     break;
